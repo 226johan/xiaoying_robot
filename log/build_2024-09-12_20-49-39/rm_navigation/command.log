@@ -1,0 +1,6 @@
+Invoking command in '/home/johan/slam/xiaoying_robot/build/rm_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/johan/slam/xiaoying_robot/src/navigation -DCMAKE_INSTALL_PREFIX=/home/johan/slam/xiaoying_robot/install/rm_navigation
+Invoked command in '/home/johan/slam/xiaoying_robot/build/rm_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/johan/slam/xiaoying_robot/src/navigation -DCMAKE_INSTALL_PREFIX=/home/johan/slam/xiaoying_robot/install/rm_navigation
+Invoking command in '/home/johan/slam/xiaoying_robot/build/rm_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/johan/slam/xiaoying_robot/build/rm_navigation -- -j16 -l16
+Invoked command in '/home/johan/slam/xiaoying_robot/build/rm_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/johan/slam/xiaoying_robot/build/rm_navigation -- -j16 -l16
+Invoking command in '/home/johan/slam/xiaoying_robot/build/rm_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/johan/slam/xiaoying_robot/build/rm_navigation
+Invoked command in '/home/johan/slam/xiaoying_robot/build/rm_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/johan/slam/xiaoying_robot/build/rm_navigation

@@ -1,0 +1,8 @@
+setup.py
+pinpoint_interfaces/__init__.py
+pinpoint_interfaces.egg-info/PKG-INFO
+pinpoint_interfaces.egg-info/SOURCES.txt
+pinpoint_interfaces.egg-info/dependency_links.txt
+pinpoint_interfaces.egg-info/top_level.txt
+pinpoint_interfaces/srv/__init__.py
+pinpoint_interfaces/srv/_speach_text.py

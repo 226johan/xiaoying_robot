@@ -1,0 +1,6 @@
+{
+  "package_name": "fast_lio",
+  "non_idl_tuples": [
+    "/home/johan/slam/xiaoying_robot/src/localization/fast_lio:msg/Pose6D.msg"
+  ]
+}

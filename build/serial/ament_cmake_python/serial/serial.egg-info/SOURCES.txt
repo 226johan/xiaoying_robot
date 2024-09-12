@@ -1,0 +1,8 @@
+setup.py
+serial/__init__.py
+serial.egg-info/PKG-INFO
+serial.egg-info/SOURCES.txt
+serial.egg-info/dependency_links.txt
+serial.egg-info/top_level.txt
+serial/msg/__init__.py
+serial/msg/_twist.py

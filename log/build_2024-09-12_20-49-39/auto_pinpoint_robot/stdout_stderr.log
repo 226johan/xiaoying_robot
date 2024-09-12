@@ -1,0 +1,44 @@
+running egg_info
+creating ../../build/auto_pinpoint_robot/auto_pinpoint_robot.egg-info
+writing ../../build/auto_pinpoint_robot/auto_pinpoint_robot.egg-info/PKG-INFO
+writing dependency_links to ../../build/auto_pinpoint_robot/auto_pinpoint_robot.egg-info/dependency_links.txt
+writing entry points to ../../build/auto_pinpoint_robot/auto_pinpoint_robot.egg-info/entry_points.txt
+writing requirements to ../../build/auto_pinpoint_robot/auto_pinpoint_robot.egg-info/requires.txt
+writing top-level names to ../../build/auto_pinpoint_robot/auto_pinpoint_robot.egg-info/top_level.txt
+writing manifest file '../../build/auto_pinpoint_robot/auto_pinpoint_robot.egg-info/SOURCES.txt'
+reading manifest file '../../build/auto_pinpoint_robot/auto_pinpoint_robot.egg-info/SOURCES.txt'
+writing manifest file '../../build/auto_pinpoint_robot/auto_pinpoint_robot.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/johan/slam/xiaoying_robot/build/auto_pinpoint_robot/build
+creating /home/johan/slam/xiaoying_robot/build/auto_pinpoint_robot/build/lib
+creating /home/johan/slam/xiaoying_robot/build/auto_pinpoint_robot/build/lib/auto_pinpoint_robot
+copying auto_pinpoint_robot/patrol_node.py -> /home/johan/slam/xiaoying_robot/build/auto_pinpoint_robot/build/lib/auto_pinpoint_robot
+copying auto_pinpoint_robot/__init__.py -> /home/johan/slam/xiaoying_robot/build/auto_pinpoint_robot/build/lib/auto_pinpoint_robot
+copying auto_pinpoint_robot/speaker.py -> /home/johan/slam/xiaoying_robot/build/auto_pinpoint_robot/build/lib/auto_pinpoint_robot
+running install
+running install_lib
+creating /home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot/lib/python3.10/site-packages/auto_pinpoint_robot
+copying /home/johan/slam/xiaoying_robot/build/auto_pinpoint_robot/build/lib/auto_pinpoint_robot/patrol_node.py -> /home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot/lib/python3.10/site-packages/auto_pinpoint_robot
+copying /home/johan/slam/xiaoying_robot/build/auto_pinpoint_robot/build/lib/auto_pinpoint_robot/__init__.py -> /home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot/lib/python3.10/site-packages/auto_pinpoint_robot
+copying /home/johan/slam/xiaoying_robot/build/auto_pinpoint_robot/build/lib/auto_pinpoint_robot/speaker.py -> /home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot/lib/python3.10/site-packages/auto_pinpoint_robot
+byte-compiling /home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot/lib/python3.10/site-packages/auto_pinpoint_robot/patrol_node.py to patrol_node.cpython-310.pyc
+byte-compiling /home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot/lib/python3.10/site-packages/auto_pinpoint_robot/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot/lib/python3.10/site-packages/auto_pinpoint_robot/speaker.py to speaker.cpython-310.pyc
+running install_data
+creating /home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot/share/ament_index
+creating /home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot/share/ament_index/resource_index
+creating /home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot/share/ament_index/resource_index/packages
+copying resource/auto_pinpoint_robot -> /home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot/share/ament_index/resource_index/packages
+copying package.xml -> /home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot/share/auto_pinpoint_robot
+creating /home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot/share/auto_pinpoint_robot/config
+copying config/pinpoint_config.yaml -> /home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot/share/auto_pinpoint_robot/config
+creating /home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot/share/auto_pinpoint_robot/launch
+copying launch/auto_pinpoint.launch.py -> /home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot/share/auto_pinpoint_robot/launch
+running install_egg_info
+Copying ../../build/auto_pinpoint_robot/auto_pinpoint_robot.egg-info to /home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot/lib/python3.10/site-packages/auto_pinpoint_robot-0.0.0-py3.10.egg-info
+running install_scripts
+Installing param_test script to /home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot/lib/auto_pinpoint_robot
+Installing patrol_node script to /home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot/lib/auto_pinpoint_robot
+Installing speaker script to /home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot/lib/auto_pinpoint_robot
+writing list of installed files to '/home/johan/slam/xiaoying_robot/build/auto_pinpoint_robot/install.log'

@@ -1,0 +1,5 @@
+[console_scripts]
+param_test = auto_pinpoint_robot.param_test:main
+patrol_node = auto_pinpoint_robot.patrol_node:main
+speaker = auto_pinpoint_robot.speaker:main
+

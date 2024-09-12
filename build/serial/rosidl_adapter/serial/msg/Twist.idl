@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from serial/msg/Twist.msg
+// generated code does not contain a copyright notice
+
+
+module serial {
+  module msg {
+    struct Twist {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

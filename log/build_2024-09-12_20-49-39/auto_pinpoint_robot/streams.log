@@ -1,0 +1,46 @@
+[0.658s] Invoking command in '/home/johan/slam/xiaoying_robot/src/auto_pinpoint_robot': PYTHONPATH=/home/johan/slam/xiaoying_robot/build/auto_pinpoint_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/auto_pinpoint_robot build --build-base /home/johan/slam/xiaoying_robot/build/auto_pinpoint_robot/build install --record /home/johan/slam/xiaoying_robot/build/auto_pinpoint_robot/install.log --single-version-externally-managed install_data
+[0.887s] running egg_info
+[0.887s] creating ../../build/auto_pinpoint_robot/auto_pinpoint_robot.egg-info
+[0.887s] writing ../../build/auto_pinpoint_robot/auto_pinpoint_robot.egg-info/PKG-INFO
+[0.888s] writing dependency_links to ../../build/auto_pinpoint_robot/auto_pinpoint_robot.egg-info/dependency_links.txt
+[0.888s] writing entry points to ../../build/auto_pinpoint_robot/auto_pinpoint_robot.egg-info/entry_points.txt
+[0.888s] writing requirements to ../../build/auto_pinpoint_robot/auto_pinpoint_robot.egg-info/requires.txt
+[0.888s] writing top-level names to ../../build/auto_pinpoint_robot/auto_pinpoint_robot.egg-info/top_level.txt
+[0.888s] writing manifest file '../../build/auto_pinpoint_robot/auto_pinpoint_robot.egg-info/SOURCES.txt'
+[0.889s] reading manifest file '../../build/auto_pinpoint_robot/auto_pinpoint_robot.egg-info/SOURCES.txt'
+[0.889s] writing manifest file '../../build/auto_pinpoint_robot/auto_pinpoint_robot.egg-info/SOURCES.txt'
+[0.889s] running build
+[0.889s] running build_py
+[0.889s] creating /home/johan/slam/xiaoying_robot/build/auto_pinpoint_robot/build
+[0.890s] creating /home/johan/slam/xiaoying_robot/build/auto_pinpoint_robot/build/lib
+[0.890s] creating /home/johan/slam/xiaoying_robot/build/auto_pinpoint_robot/build/lib/auto_pinpoint_robot
+[0.890s] copying auto_pinpoint_robot/patrol_node.py -> /home/johan/slam/xiaoying_robot/build/auto_pinpoint_robot/build/lib/auto_pinpoint_robot
+[0.890s] copying auto_pinpoint_robot/__init__.py -> /home/johan/slam/xiaoying_robot/build/auto_pinpoint_robot/build/lib/auto_pinpoint_robot
+[0.890s] copying auto_pinpoint_robot/speaker.py -> /home/johan/slam/xiaoying_robot/build/auto_pinpoint_robot/build/lib/auto_pinpoint_robot
+[0.890s] running install
+[0.890s] running install_lib
+[0.890s] creating /home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot/lib/python3.10/site-packages/auto_pinpoint_robot
+[0.890s] copying /home/johan/slam/xiaoying_robot/build/auto_pinpoint_robot/build/lib/auto_pinpoint_robot/patrol_node.py -> /home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot/lib/python3.10/site-packages/auto_pinpoint_robot
+[0.890s] copying /home/johan/slam/xiaoying_robot/build/auto_pinpoint_robot/build/lib/auto_pinpoint_robot/__init__.py -> /home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot/lib/python3.10/site-packages/auto_pinpoint_robot
+[0.890s] copying /home/johan/slam/xiaoying_robot/build/auto_pinpoint_robot/build/lib/auto_pinpoint_robot/speaker.py -> /home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot/lib/python3.10/site-packages/auto_pinpoint_robot
+[0.891s] byte-compiling /home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot/lib/python3.10/site-packages/auto_pinpoint_robot/patrol_node.py to patrol_node.cpython-310.pyc
+[0.891s] byte-compiling /home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot/lib/python3.10/site-packages/auto_pinpoint_robot/__init__.py to __init__.cpython-310.pyc
+[0.892s] byte-compiling /home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot/lib/python3.10/site-packages/auto_pinpoint_robot/speaker.py to speaker.cpython-310.pyc
+[0.892s] running install_data
+[0.892s] creating /home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot/share/ament_index
+[0.892s] creating /home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot/share/ament_index/resource_index
+[0.892s] creating /home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot/share/ament_index/resource_index/packages
+[0.892s] copying resource/auto_pinpoint_robot -> /home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot/share/ament_index/resource_index/packages
+[0.892s] copying package.xml -> /home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot/share/auto_pinpoint_robot
+[0.892s] creating /home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot/share/auto_pinpoint_robot/config
+[0.893s] copying config/pinpoint_config.yaml -> /home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot/share/auto_pinpoint_robot/config
+[0.893s] creating /home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot/share/auto_pinpoint_robot/launch
+[0.893s] copying launch/auto_pinpoint.launch.py -> /home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot/share/auto_pinpoint_robot/launch
+[0.893s] running install_egg_info
+[0.893s] Copying ../../build/auto_pinpoint_robot/auto_pinpoint_robot.egg-info to /home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot/lib/python3.10/site-packages/auto_pinpoint_robot-0.0.0-py3.10.egg-info
+[0.894s] running install_scripts
+[0.907s] Installing param_test script to /home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot/lib/auto_pinpoint_robot
+[0.907s] Installing patrol_node script to /home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot/lib/auto_pinpoint_robot
+[0.907s] Installing speaker script to /home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot/lib/auto_pinpoint_robot
+[0.907s] writing list of installed files to '/home/johan/slam/xiaoying_robot/build/auto_pinpoint_robot/install.log'
+[0.923s] Invoked command in '/home/johan/slam/xiaoying_robot/src/auto_pinpoint_robot' returned '0': PYTHONPATH=/home/johan/slam/xiaoying_robot/build/auto_pinpoint_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/auto_pinpoint_robot build --build-base /home/johan/slam/xiaoying_robot/build/auto_pinpoint_robot/build install --record /home/johan/slam/xiaoying_robot/build/auto_pinpoint_robot/install.log --single-version-externally-managed install_data

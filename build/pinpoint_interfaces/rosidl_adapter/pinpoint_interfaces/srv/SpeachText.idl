@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from pinpoint_interfaces/srv/SpeachText.srv
+// generated code does not contain a copyright notice
+
+
+module pinpoint_interfaces {
+  module srv {
+    struct SpeachText_Request {
+      string text;
+    };
+    struct SpeachText_Response {
+      boolean result;
+    };
+  };
+};

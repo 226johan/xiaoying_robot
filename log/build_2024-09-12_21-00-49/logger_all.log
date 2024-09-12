@@ -1,0 +1,827 @@
+[0.065s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.065s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x74ec48149f60>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x74ec48149b10>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x74ec48149b10>>)
+[0.168s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.168s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.168s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.168s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.168s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.169s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/johan/slam/xiaoying_robot'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_pinpoint_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_pinpoint_robot) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_pinpoint_robot) by extension 'ignore_ament_install'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_pinpoint_robot) by extensions ['colcon_pkg']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_pinpoint_robot) by extension 'colcon_pkg'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_pinpoint_robot) by extensions ['colcon_meta']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_pinpoint_robot) by extension 'colcon_meta'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_pinpoint_robot) by extensions ['ros']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_pinpoint_robot) by extension 'ros'
+[0.179s] DEBUG:colcon.colcon_core.package_identification:Package 'src/auto_pinpoint_robot' with type 'ros.ament_python' and name 'auto_pinpoint_robot'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization) by extension 'ignore'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization) by extension 'ignore_ament_install'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization) by extensions ['colcon_pkg']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization) by extension 'colcon_pkg'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization) by extensions ['colcon_meta']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization) by extension 'colcon_meta'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization) by extensions ['ros']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization) by extension 'ros'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization) by extensions ['cmake', 'python']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization) by extension 'cmake'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization) by extension 'python'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization) by extensions ['python_setup_py']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization) by extension 'python_setup_py'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization/fast_lio) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization/fast_lio) by extension 'ignore'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization/fast_lio) by extension 'ignore_ament_install'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization/fast_lio) by extensions ['colcon_pkg']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization/fast_lio) by extension 'colcon_pkg'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization/fast_lio) by extensions ['colcon_meta']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization/fast_lio) by extension 'colcon_meta'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization/fast_lio) by extensions ['ros']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization/fast_lio) by extension 'ros'
+[0.181s] DEBUG:colcon.colcon_core.package_identification:Package 'src/localization/fast_lio' with type 'ros.ament_cmake' and name 'fast_lio'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extension 'ignore_ament_install'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extensions ['colcon_pkg']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extension 'colcon_pkg'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extensions ['colcon_meta']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extension 'colcon_meta'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extensions ['ros']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extension 'ros'
+[0.182s] DEBUG:colcon.colcon_core.package_identification:Package 'src/navigation' with type 'ros.ament_cmake' and name 'rm_navigation'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception) by extensions ['ignore', 'ignore_ament_install']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception) by extension 'ignore'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception) by extension 'ignore_ament_install'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception) by extensions ['colcon_pkg']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception) by extension 'colcon_pkg'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception) by extensions ['colcon_meta']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception) by extension 'colcon_meta'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception) by extensions ['ros']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception) by extension 'ros'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception) by extensions ['cmake', 'python']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception) by extension 'cmake'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception) by extension 'python'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception) by extensions ['python_setup_py']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception) by extension 'python_setup_py'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/imu_complementary_filter) by extensions ['ignore', 'ignore_ament_install']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/imu_complementary_filter) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/imu_complementary_filter) by extension 'ignore_ament_install'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/imu_complementary_filter) by extensions ['colcon_pkg']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/imu_complementary_filter) by extension 'colcon_pkg'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/imu_complementary_filter) by extensions ['colcon_meta']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/imu_complementary_filter) by extension 'colcon_meta'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/imu_complementary_filter) by extensions ['ros']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/imu_complementary_filter) by extension 'ros'
+[0.183s] DEBUG:colcon.colcon_core.package_identification:Package 'src/perception/imu_complementary_filter' with type 'ros.ament_cmake' and name 'imu_complementary_filter'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/linefit_ground_segementation_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/linefit_ground_segementation_ros2) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/linefit_ground_segementation_ros2) by extension 'ignore_ament_install'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/linefit_ground_segementation_ros2) by extensions ['colcon_pkg']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/linefit_ground_segementation_ros2) by extension 'colcon_pkg'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/linefit_ground_segementation_ros2) by extensions ['colcon_meta']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/linefit_ground_segementation_ros2) by extension 'colcon_meta'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/linefit_ground_segementation_ros2) by extensions ['ros']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/linefit_ground_segementation_ros2) by extension 'ros'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/linefit_ground_segementation_ros2) by extensions ['cmake', 'python']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/linefit_ground_segementation_ros2) by extension 'cmake'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/linefit_ground_segementation_ros2) by extension 'python'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/linefit_ground_segementation_ros2) by extensions ['python_setup_py']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/linefit_ground_segementation_ros2) by extension 'python_setup_py'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/linefit_ground_segementation_ros2/doc) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/linefit_ground_segementation_ros2/doc) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/linefit_ground_segementation_ros2/doc) by extension 'ignore_ament_install'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/linefit_ground_segementation_ros2/doc) by extensions ['colcon_pkg']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/linefit_ground_segementation_ros2/doc) by extension 'colcon_pkg'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/linefit_ground_segementation_ros2/doc) by extensions ['colcon_meta']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/linefit_ground_segementation_ros2/doc) by extension 'colcon_meta'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/linefit_ground_segementation_ros2/doc) by extensions ['ros']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/linefit_ground_segementation_ros2/doc) by extension 'ros'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/linefit_ground_segementation_ros2/doc) by extensions ['cmake', 'python']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/linefit_ground_segementation_ros2/doc) by extension 'cmake'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/linefit_ground_segementation_ros2/doc) by extension 'python'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/linefit_ground_segementation_ros2/doc) by extensions ['python_setup_py']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/linefit_ground_segementation_ros2/doc) by extension 'python_setup_py'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/linefit_ground_segementation_ros2/linefit_ground_segmentation) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/linefit_ground_segementation_ros2/linefit_ground_segmentation) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/linefit_ground_segementation_ros2/linefit_ground_segmentation) by extension 'ignore_ament_install'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/linefit_ground_segementation_ros2/linefit_ground_segmentation) by extensions ['colcon_pkg']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/linefit_ground_segementation_ros2/linefit_ground_segmentation) by extension 'colcon_pkg'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/linefit_ground_segementation_ros2/linefit_ground_segmentation) by extensions ['colcon_meta']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/linefit_ground_segementation_ros2/linefit_ground_segmentation) by extension 'colcon_meta'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/linefit_ground_segementation_ros2/linefit_ground_segmentation) by extensions ['ros']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/linefit_ground_segementation_ros2/linefit_ground_segmentation) by extension 'ros'
+[0.184s] DEBUG:colcon.colcon_core.package_identification:Package 'src/perception/linefit_ground_segementation_ros2/linefit_ground_segmentation' with type 'ros.ament_cmake' and name 'linefit_ground_segmentation'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros) by extension 'ignore_ament_install'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros) by extensions ['colcon_pkg']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros) by extension 'colcon_pkg'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros) by extensions ['colcon_meta']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros) by extension 'colcon_meta'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros) by extensions ['ros']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros) by extension 'ros'
+[0.185s] DEBUG:colcon.colcon_core.package_identification:Package 'src/perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros' with type 'ros.ament_cmake' and name 'linefit_ground_segmentation_ros'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/pointcloud_to_laserscan) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/pointcloud_to_laserscan) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/pointcloud_to_laserscan) by extension 'ignore_ament_install'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/pointcloud_to_laserscan) by extensions ['colcon_pkg']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/pointcloud_to_laserscan) by extension 'colcon_pkg'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/pointcloud_to_laserscan) by extensions ['colcon_meta']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/pointcloud_to_laserscan) by extension 'colcon_meta'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/pointcloud_to_laserscan) by extensions ['ros']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception/pointcloud_to_laserscan) by extension 'ros'
+[0.186s] DEBUG:colcon.colcon_core.package_identification:Package 'src/perception/pointcloud_to_laserscan' with type 'ros.ament_cmake' and name 'pointcloud_to_laserscan'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinpoint_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinpoint_interfaces) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinpoint_interfaces) by extension 'ignore_ament_install'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinpoint_interfaces) by extensions ['colcon_pkg']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinpoint_interfaces) by extension 'colcon_pkg'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinpoint_interfaces) by extensions ['colcon_meta']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinpoint_interfaces) by extension 'colcon_meta'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinpoint_interfaces) by extensions ['ros']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinpoint_interfaces) by extension 'ros'
+[0.187s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pinpoint_interfaces' with type 'ros.ament_cmake' and name 'pinpoint_interfaces'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors) by extensions ['ignore', 'ignore_ament_install']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors) by extension 'ignore'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors) by extension 'ignore_ament_install'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors) by extensions ['colcon_pkg']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors) by extension 'colcon_pkg'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors) by extensions ['colcon_meta']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors) by extension 'colcon_meta'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors) by extensions ['ros']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors) by extension 'ros'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors) by extensions ['cmake', 'python']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors) by extension 'cmake'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors) by extension 'python'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors) by extensions ['python_setup_py']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors) by extension 'python_setup_py'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors/livox_ros_driver2) by extensions ['ignore', 'ignore_ament_install']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors/livox_ros_driver2) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors/livox_ros_driver2) by extension 'ignore_ament_install'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors/livox_ros_driver2) by extensions ['colcon_pkg']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors/livox_ros_driver2) by extension 'colcon_pkg'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors/livox_ros_driver2) by extensions ['colcon_meta']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors/livox_ros_driver2) by extension 'colcon_meta'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors/livox_ros_driver2) by extensions ['ros']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors/livox_ros_driver2) by extension 'ros'
+[0.188s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sensors/livox_ros_driver2' with type 'ros.ament_cmake' and name 'livox_ros_driver2'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ignore_ament_install'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['colcon_pkg']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'colcon_pkg'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['colcon_meta']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'colcon_meta'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['ros']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ros'
+[0.189s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial' with type 'ros.ament_cmake' and name 'serial'
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.210s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 10 installed packages in /home/johan/slam/xiaoying_robot/install
+[0.211s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 361 installed packages in /opt/ros/humble
+[0.212s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'auto_pinpoint_robot' build argument 'cmake_args' from command line to 'None'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'auto_pinpoint_robot' build argument 'cmake_target' from command line to 'None'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'auto_pinpoint_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'auto_pinpoint_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'auto_pinpoint_robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'auto_pinpoint_robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'auto_pinpoint_robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'auto_pinpoint_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'auto_pinpoint_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.237s] DEBUG:colcon.colcon_core.verb:Building package 'auto_pinpoint_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/johan/slam/xiaoying_robot/build/auto_pinpoint_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot', 'merge_install': False, 'path': '/home/johan/slam/xiaoying_robot/src/auto_pinpoint_robot', 'symlink_install': False, 'test_result_base': None}
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'imu_complementary_filter' build argument 'cmake_args' from command line to 'None'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'imu_complementary_filter' build argument 'cmake_target' from command line to 'None'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'imu_complementary_filter' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'imu_complementary_filter' build argument 'cmake_clean_cache' from command line to 'False'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'imu_complementary_filter' build argument 'cmake_clean_first' from command line to 'False'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'imu_complementary_filter' build argument 'cmake_force_configure' from command line to 'False'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'imu_complementary_filter' build argument 'ament_cmake_args' from command line to 'None'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'imu_complementary_filter' build argument 'catkin_cmake_args' from command line to 'None'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'imu_complementary_filter' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.238s] DEBUG:colcon.colcon_core.verb:Building package 'imu_complementary_filter' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/johan/slam/xiaoying_robot/build/imu_complementary_filter', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/johan/slam/xiaoying_robot/install/imu_complementary_filter', 'merge_install': False, 'path': '/home/johan/slam/xiaoying_robot/src/perception/imu_complementary_filter', 'symlink_install': False, 'test_result_base': None}
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'linefit_ground_segmentation' build argument 'cmake_args' from command line to 'None'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'linefit_ground_segmentation' build argument 'cmake_target' from command line to 'None'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'linefit_ground_segmentation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'linefit_ground_segmentation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'linefit_ground_segmentation' build argument 'cmake_clean_first' from command line to 'False'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'linefit_ground_segmentation' build argument 'cmake_force_configure' from command line to 'False'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'linefit_ground_segmentation' build argument 'ament_cmake_args' from command line to 'None'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'linefit_ground_segmentation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'linefit_ground_segmentation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.238s] DEBUG:colcon.colcon_core.verb:Building package 'linefit_ground_segmentation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/johan/slam/xiaoying_robot/build/linefit_ground_segmentation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation', 'merge_install': False, 'path': '/home/johan/slam/xiaoying_robot/src/perception/linefit_ground_segementation_ros2/linefit_ground_segmentation', 'symlink_install': False, 'test_result_base': None}
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_args' from command line to 'None'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_target' from command line to 'None'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_clean_first' from command line to 'False'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_force_configure' from command line to 'False'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'ament_cmake_args' from command line to 'None'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.238s] DEBUG:colcon.colcon_core.verb:Building package 'livox_ros_driver2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/johan/slam/xiaoying_robot/build/livox_ros_driver2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/johan/slam/xiaoying_robot/install/livox_ros_driver2', 'merge_install': False, 'path': '/home/johan/slam/xiaoying_robot/src/sensors/livox_ros_driver2', 'symlink_install': False, 'test_result_base': None}
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'pinpoint_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'pinpoint_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'pinpoint_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'pinpoint_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'pinpoint_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'pinpoint_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'pinpoint_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'pinpoint_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'pinpoint_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.239s] DEBUG:colcon.colcon_core.verb:Building package 'pinpoint_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/johan/slam/xiaoying_robot/build/pinpoint_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/johan/slam/xiaoying_robot/install/pinpoint_interfaces', 'merge_install': False, 'path': '/home/johan/slam/xiaoying_robot/src/pinpoint_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_args' from command line to 'None'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_target' from command line to 'None'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_clean_cache' from command line to 'False'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_clean_first' from command line to 'False'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_force_configure' from command line to 'False'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'ament_cmake_args' from command line to 'None'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'catkin_cmake_args' from command line to 'None'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.239s] DEBUG:colcon.colcon_core.verb:Building package 'pointcloud_to_laserscan' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/johan/slam/xiaoying_robot/build/pointcloud_to_laserscan', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/johan/slam/xiaoying_robot/install/pointcloud_to_laserscan', 'merge_install': False, 'path': '/home/johan/slam/xiaoying_robot/src/perception/pointcloud_to_laserscan', 'symlink_install': False, 'test_result_base': None}
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'rm_navigation' build argument 'cmake_args' from command line to 'None'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'rm_navigation' build argument 'cmake_target' from command line to 'None'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'rm_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'rm_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'rm_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'rm_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'rm_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'rm_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'rm_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.239s] DEBUG:colcon.colcon_core.verb:Building package 'rm_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/johan/slam/xiaoying_robot/build/rm_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/johan/slam/xiaoying_robot/install/rm_navigation', 'merge_install': False, 'path': '/home/johan/slam/xiaoying_robot/src/navigation', 'symlink_install': False, 'test_result_base': None}
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_args' from command line to 'None'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target' from command line to 'None'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_cache' from command line to 'False'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_first' from command line to 'False'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_force_configure' from command line to 'False'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'ament_cmake_args' from command line to 'None'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_cmake_args' from command line to 'None'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.240s] DEBUG:colcon.colcon_core.verb:Building package 'serial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/johan/slam/xiaoying_robot/build/serial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/johan/slam/xiaoying_robot/install/serial', 'merge_install': False, 'path': '/home/johan/slam/xiaoying_robot/src/serial', 'symlink_install': False, 'test_result_base': None}
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_args' from command line to 'None'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_target' from command line to 'None'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_clean_cache' from command line to 'False'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_clean_first' from command line to 'False'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_force_configure' from command line to 'False'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'ament_cmake_args' from command line to 'None'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'catkin_cmake_args' from command line to 'None'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.240s] DEBUG:colcon.colcon_core.verb:Building package 'fast_lio' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/johan/slam/xiaoying_robot/build/fast_lio', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/johan/slam/xiaoying_robot/install/fast_lio', 'merge_install': False, 'path': '/home/johan/slam/xiaoying_robot/src/localization/fast_lio', 'symlink_install': False, 'test_result_base': None}
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'linefit_ground_segmentation_ros' build argument 'cmake_args' from command line to 'None'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'linefit_ground_segmentation_ros' build argument 'cmake_target' from command line to 'None'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'linefit_ground_segmentation_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'linefit_ground_segmentation_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'linefit_ground_segmentation_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'linefit_ground_segmentation_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'linefit_ground_segmentation_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'linefit_ground_segmentation_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'linefit_ground_segmentation_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.240s] DEBUG:colcon.colcon_core.verb:Building package 'linefit_ground_segmentation_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/johan/slam/xiaoying_robot/build/linefit_ground_segmentation_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation_ros', 'merge_install': False, 'path': '/home/johan/slam/xiaoying_robot/src/perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros', 'symlink_install': False, 'test_result_base': None}
+[0.240s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.241s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.241s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/johan/slam/xiaoying_robot/src/perception/linefit_ground_segementation_ros2/linefit_ground_segmentation' with build type 'ament_cmake'
+[0.241s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/johan/slam/xiaoying_robot/src/perception/linefit_ground_segementation_ros2/linefit_ground_segmentation'
+[0.243s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.243s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.243s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.245s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/johan/slam/xiaoying_robot/src/sensors/livox_ros_driver2' with build type 'ament_cmake'
+[0.245s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/johan/slam/xiaoying_robot/src/sensors/livox_ros_driver2'
+[0.245s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.245s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.247s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/johan/slam/xiaoying_robot/src/auto_pinpoint_robot' with build type 'ament_python'
+[0.247s] Level 1:colcon.colcon_core.shell:create_environment_hook('auto_pinpoint_robot', 'ament_prefix_path')
+[0.247s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot/share/auto_pinpoint_robot/hook/ament_prefix_path.ps1'
+[0.248s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot/share/auto_pinpoint_robot/hook/ament_prefix_path.dsv'
+[0.248s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot/share/auto_pinpoint_robot/hook/ament_prefix_path.sh'
+[0.249s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.249s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.251s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/johan/slam/xiaoying_robot/src/perception/imu_complementary_filter' with build type 'ament_cmake'
+[0.251s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/johan/slam/xiaoying_robot/src/perception/imu_complementary_filter'
+[0.251s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.251s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.253s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/johan/slam/xiaoying_robot/src/pinpoint_interfaces' with build type 'ament_cmake'
+[0.253s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/johan/slam/xiaoying_robot/src/pinpoint_interfaces'
+[0.253s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.253s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.255s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/johan/slam/xiaoying_robot/src/perception/pointcloud_to_laserscan' with build type 'ament_cmake'
+[0.255s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/johan/slam/xiaoying_robot/src/perception/pointcloud_to_laserscan'
+[0.255s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.255s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.257s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/johan/slam/xiaoying_robot/src/navigation' with build type 'ament_cmake'
+[0.257s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/johan/slam/xiaoying_robot/src/navigation'
+[0.258s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.258s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.259s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/johan/slam/xiaoying_robot/src/serial' with build type 'ament_cmake'
+[0.260s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/johan/slam/xiaoying_robot/src/serial'
+[0.260s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.260s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.266s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/johan/slam/xiaoying_robot/build/linefit_ground_segmentation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot:/opt/ros/humble /usr/bin/cmake --build /home/johan/slam/xiaoying_robot/build/linefit_ground_segmentation -- -j16 -l16
+[0.269s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/johan/slam/xiaoying_robot/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot:/opt/ros/humble /usr/bin/cmake --build /home/johan/slam/xiaoying_robot/build/livox_ros_driver2 -- -j16 -l16
+[0.434s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/johan/slam/xiaoying_robot/src/auto_pinpoint_robot'
+[0.435s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.435s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.442s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/johan/slam/xiaoying_robot/build/imu_complementary_filter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot:/opt/ros/humble /usr/bin/cmake --build /home/johan/slam/xiaoying_robot/build/imu_complementary_filter -- -j16 -l16
+[0.443s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/johan/slam/xiaoying_robot/build/pinpoint_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot:/opt/ros/humble /usr/bin/cmake --build /home/johan/slam/xiaoying_robot/build/pinpoint_interfaces -- -j16 -l16
+[0.446s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/johan/slam/xiaoying_robot/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot:/opt/ros/humble /usr/bin/cmake --build /home/johan/slam/xiaoying_robot/build/pointcloud_to_laserscan -- -j16 -l16
+[0.450s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/johan/slam/xiaoying_robot/build/rm_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot:/opt/ros/humble /usr/bin/cmake --build /home/johan/slam/xiaoying_robot/build/rm_navigation -- -j16 -l16
+[0.463s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/johan/slam/xiaoying_robot/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot:/opt/ros/humble /usr/bin/cmake --build /home/johan/slam/xiaoying_robot/build/serial -- -j16 -l16
+[0.463s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/johan/slam/xiaoying_robot/build/linefit_ground_segmentation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot:/opt/ros/humble /usr/bin/cmake --build /home/johan/slam/xiaoying_robot/build/linefit_ground_segmentation -- -j16 -l16
+[0.493s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/johan/slam/xiaoying_robot/build/rm_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot:/opt/ros/humble /usr/bin/cmake --build /home/johan/slam/xiaoying_robot/build/rm_navigation -- -j16 -l16
+[0.512s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/johan/slam/xiaoying_robot/build/linefit_ground_segmentation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot:/opt/ros/humble /usr/bin/cmake --install /home/johan/slam/xiaoying_robot/build/linefit_ground_segmentation
+[0.524s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(linefit_ground_segmentation)
+[0.526s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/johan/slam/xiaoying_robot/build/rm_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot:/opt/ros/humble /usr/bin/cmake --install /home/johan/slam/xiaoying_robot/build/rm_navigation
+[0.526s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/johan/slam/xiaoying_robot/build/linefit_ground_segmentation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot:/opt/ros/humble /usr/bin/cmake --install /home/johan/slam/xiaoying_robot/build/linefit_ground_segmentation
+[0.529s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation' for CMake module files
+[0.529s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation' for CMake config files
+[0.529s] Level 1:colcon.colcon_core.shell:create_environment_hook('linefit_ground_segmentation', 'cmake_prefix_path')
+[0.530s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation/share/linefit_ground_segmentation/hook/cmake_prefix_path.ps1'
+[0.531s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation/share/linefit_ground_segmentation/hook/cmake_prefix_path.dsv'
+[0.531s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation/share/linefit_ground_segmentation/hook/cmake_prefix_path.sh'
+[0.532s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation/lib'
+[0.533s] Level 1:colcon.colcon_core.shell:create_environment_hook('linefit_ground_segmentation', 'ld_library_path_lib')
+[0.533s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation/share/linefit_ground_segmentation/hook/ld_library_path_lib.ps1'
+[0.535s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation/share/linefit_ground_segmentation/hook/ld_library_path_lib.dsv'
+[0.535s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation/share/linefit_ground_segmentation/hook/ld_library_path_lib.sh'
+[0.536s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation/bin'
+[0.536s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation/lib/pkgconfig/linefit_ground_segmentation.pc'
+[0.537s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation/lib/python3.10/site-packages'
+[0.537s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation/bin'
+[0.537s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation/share/linefit_ground_segmentation/package.ps1'
+[0.538s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation/share/linefit_ground_segmentation/package.dsv'
+[0.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation/share/linefit_ground_segmentation/package.sh'
+[0.540s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation/share/linefit_ground_segmentation/package.bash'
+[0.541s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation/share/linefit_ground_segmentation/package.zsh'
+[0.543s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation/share/colcon-core/packages/linefit_ground_segmentation)
+[0.546s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/johan/slam/xiaoying_robot/build/imu_complementary_filter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot:/opt/ros/humble /usr/bin/cmake --build /home/johan/slam/xiaoying_robot/build/imu_complementary_filter -- -j16 -l16
+[0.547s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rm_navigation)
+[0.547s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/rm_navigation' for CMake module files
+[0.548s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/johan/slam/xiaoying_robot/build/rm_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot:/opt/ros/humble /usr/bin/cmake --install /home/johan/slam/xiaoying_robot/build/rm_navigation
+[0.548s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/rm_navigation' for CMake config files
+[0.549s] Level 1:colcon.colcon_core.shell:create_environment_hook('rm_navigation', 'cmake_prefix_path')
+[0.549s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/slam/xiaoying_robot/install/rm_navigation/share/rm_navigation/hook/cmake_prefix_path.ps1'
+[0.549s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johan/slam/xiaoying_robot/install/rm_navigation/share/rm_navigation/hook/cmake_prefix_path.dsv'
+[0.550s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/slam/xiaoying_robot/install/rm_navigation/share/rm_navigation/hook/cmake_prefix_path.sh'
+[0.550s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/rm_navigation/bin'
+[0.550s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/rm_navigation/lib/pkgconfig/rm_navigation.pc'
+[0.550s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/rm_navigation/lib/python3.10/site-packages'
+[0.551s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/rm_navigation/bin'
+[0.551s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/rm_navigation/share/rm_navigation/package.ps1'
+[0.551s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/johan/slam/xiaoying_robot/install/rm_navigation/share/rm_navigation/package.dsv'
+[0.552s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/rm_navigation/share/rm_navigation/package.sh'
+[0.552s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/rm_navigation/share/rm_navigation/package.bash'
+[0.552s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/rm_navigation/share/rm_navigation/package.zsh'
+[0.552s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/johan/slam/xiaoying_robot/install/rm_navigation/share/colcon-core/packages/rm_navigation)
+[0.554s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/johan/slam/xiaoying_robot/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot:/opt/ros/humble /usr/bin/cmake --build /home/johan/slam/xiaoying_robot/build/livox_ros_driver2 -- -j16 -l16
+[0.567s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(linefit_ground_segmentation)
+[0.567s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation' for CMake module files
+[0.568s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation' for CMake config files
+[0.568s] Level 1:colcon.colcon_core.shell:create_environment_hook('linefit_ground_segmentation', 'cmake_prefix_path')
+[0.568s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation/share/linefit_ground_segmentation/hook/cmake_prefix_path.ps1'
+[0.569s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation/share/linefit_ground_segmentation/hook/cmake_prefix_path.dsv'
+[0.569s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation/share/linefit_ground_segmentation/hook/cmake_prefix_path.sh'
+[0.569s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation/lib'
+[0.570s] Level 1:colcon.colcon_core.shell:create_environment_hook('linefit_ground_segmentation', 'ld_library_path_lib')
+[0.570s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation/share/linefit_ground_segmentation/hook/ld_library_path_lib.ps1'
+[0.570s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation/share/linefit_ground_segmentation/hook/ld_library_path_lib.dsv'
+[0.570s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation/share/linefit_ground_segmentation/hook/ld_library_path_lib.sh'
+[0.571s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation/bin'
+[0.571s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation/lib/pkgconfig/linefit_ground_segmentation.pc'
+[0.571s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation/lib/python3.10/site-packages'
+[0.571s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation/bin'
+[0.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation/share/linefit_ground_segmentation/package.ps1'
+[0.572s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation/share/linefit_ground_segmentation/package.dsv'
+[0.573s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation/share/linefit_ground_segmentation/package.sh'
+[0.573s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation/share/linefit_ground_segmentation/package.bash'
+[0.573s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation/share/linefit_ground_segmentation/package.zsh'
+[0.574s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation/share/colcon-core/packages/linefit_ground_segmentation)
+[0.574s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/johan/slam/xiaoying_robot/src/perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros' with build type 'ament_cmake'
+[0.574s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/johan/slam/xiaoying_robot/src/perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros'
+[0.574s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.574s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.579s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rm_navigation)
+[0.580s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/rm_navigation' for CMake module files
+[0.580s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/rm_navigation' for CMake config files
+[0.580s] Level 1:colcon.colcon_core.shell:create_environment_hook('rm_navigation', 'cmake_prefix_path')
+[0.580s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/slam/xiaoying_robot/install/rm_navigation/share/rm_navigation/hook/cmake_prefix_path.ps1'
+[0.581s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johan/slam/xiaoying_robot/install/rm_navigation/share/rm_navigation/hook/cmake_prefix_path.dsv'
+[0.581s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/slam/xiaoying_robot/install/rm_navigation/share/rm_navigation/hook/cmake_prefix_path.sh'
+[0.582s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/rm_navigation/bin'
+[0.582s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/rm_navigation/lib/pkgconfig/rm_navigation.pc'
+[0.582s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/rm_navigation/lib/python3.10/site-packages'
+[0.582s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/rm_navigation/bin'
+[0.583s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/rm_navigation/share/rm_navigation/package.ps1'
+[0.583s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/johan/slam/xiaoying_robot/install/rm_navigation/share/rm_navigation/package.dsv'
+[0.583s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/rm_navigation/share/rm_navigation/package.sh'
+[0.584s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/rm_navigation/share/rm_navigation/package.bash'
+[0.584s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/rm_navigation/share/rm_navigation/package.zsh'
+[0.584s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/johan/slam/xiaoying_robot/install/rm_navigation/share/colcon-core/packages/rm_navigation)
+[0.588s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/johan/slam/xiaoying_robot/build/imu_complementary_filter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot:/opt/ros/humble /usr/bin/cmake --install /home/johan/slam/xiaoying_robot/build/imu_complementary_filter
+[0.591s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/johan/slam/xiaoying_robot/build/linefit_ground_segmentation_ros': CMAKE_PREFIX_PATH=/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation:/home/johan/slam/xiaoying_robot/install/serial:/home/johan/slam/xiaoying_robot/install/rm_navigation:/home/johan/slam/xiaoying_robot/install/pointcloud_to_laserscan:/home/johan/slam/xiaoying_robot/install/fast_lio:/home/johan/slam/xiaoying_robot/install/livox_ros_driver2:/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation_ros:/home/johan/slam/xiaoying_robot/install/imu_complementary_filter:/home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot:/opt/ros/humble LD_LIBRARY_PATH=/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation/lib:/home/johan/slam/xiaoying_robot/install/serial/lib:/home/johan/slam/xiaoying_robot/install/pointcloud_to_laserscan/lib:/home/johan/slam/xiaoying_robot/install/fast_lio/lib:/home/johan/slam/xiaoying_robot/install/livox_ros_driver2/lib:/home/johan/slam/xiaoying_robot/install/imu_complementary_filter/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/intel/openvino_2024.2.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2024.2.0/runtime/lib/intel64:/usr/local/cuda-12.1/lib64:/opt/intel/openvino_2024.2.0/runtime/lib/intel64 /usr/bin/cmake --build /home/johan/slam/xiaoying_robot/build/linefit_ground_segmentation_ros -- -j16 -l16
+[0.598s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_complementary_filter)
+[0.599s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/imu_complementary_filter' for CMake module files
+[0.599s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/johan/slam/xiaoying_robot/build/imu_complementary_filter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot:/opt/ros/humble /usr/bin/cmake --install /home/johan/slam/xiaoying_robot/build/imu_complementary_filter
+[0.600s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/imu_complementary_filter' for CMake config files
+[0.600s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_complementary_filter', 'cmake_prefix_path')
+[0.600s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/slam/xiaoying_robot/install/imu_complementary_filter/share/imu_complementary_filter/hook/cmake_prefix_path.ps1'
+[0.601s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johan/slam/xiaoying_robot/install/imu_complementary_filter/share/imu_complementary_filter/hook/cmake_prefix_path.dsv'
+[0.601s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/slam/xiaoying_robot/install/imu_complementary_filter/share/imu_complementary_filter/hook/cmake_prefix_path.sh'
+[0.602s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/imu_complementary_filter/lib'
+[0.602s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_complementary_filter', 'ld_library_path_lib')
+[0.602s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/slam/xiaoying_robot/install/imu_complementary_filter/share/imu_complementary_filter/hook/ld_library_path_lib.ps1'
+[0.602s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johan/slam/xiaoying_robot/install/imu_complementary_filter/share/imu_complementary_filter/hook/ld_library_path_lib.dsv'
+[0.603s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/slam/xiaoying_robot/install/imu_complementary_filter/share/imu_complementary_filter/hook/ld_library_path_lib.sh'
+[0.603s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/imu_complementary_filter/bin'
+[0.603s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/imu_complementary_filter/lib/pkgconfig/imu_complementary_filter.pc'
+[0.604s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/imu_complementary_filter/lib/python3.10/site-packages'
+[0.604s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/imu_complementary_filter/bin'
+[0.604s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/imu_complementary_filter/share/imu_complementary_filter/package.ps1'
+[0.605s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/johan/slam/xiaoying_robot/install/imu_complementary_filter/share/imu_complementary_filter/package.dsv'
+[0.606s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/imu_complementary_filter/share/imu_complementary_filter/package.sh'
+[0.606s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/imu_complementary_filter/share/imu_complementary_filter/package.bash'
+[0.606s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/imu_complementary_filter/share/imu_complementary_filter/package.zsh'
+[0.607s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/johan/slam/xiaoying_robot/install/imu_complementary_filter/share/colcon-core/packages/imu_complementary_filter)
+[0.609s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/johan/slam/xiaoying_robot/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot:/opt/ros/humble /usr/bin/cmake --build /home/johan/slam/xiaoying_robot/build/pointcloud_to_laserscan -- -j16 -l16
+[0.640s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/johan/slam/xiaoying_robot/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot:/opt/ros/humble /usr/bin/cmake --install /home/johan/slam/xiaoying_robot/build/pointcloud_to_laserscan
+[0.641s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_complementary_filter)
+[0.641s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/imu_complementary_filter' for CMake module files
+[0.642s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/imu_complementary_filter' for CMake config files
+[0.643s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_complementary_filter', 'cmake_prefix_path')
+[0.643s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/slam/xiaoying_robot/install/imu_complementary_filter/share/imu_complementary_filter/hook/cmake_prefix_path.ps1'
+[0.644s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johan/slam/xiaoying_robot/install/imu_complementary_filter/share/imu_complementary_filter/hook/cmake_prefix_path.dsv'
+[0.644s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/slam/xiaoying_robot/install/imu_complementary_filter/share/imu_complementary_filter/hook/cmake_prefix_path.sh'
+[0.645s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/imu_complementary_filter/lib'
+[0.645s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_complementary_filter', 'ld_library_path_lib')
+[0.645s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/slam/xiaoying_robot/install/imu_complementary_filter/share/imu_complementary_filter/hook/ld_library_path_lib.ps1'
+[0.645s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johan/slam/xiaoying_robot/install/imu_complementary_filter/share/imu_complementary_filter/hook/ld_library_path_lib.dsv'
+[0.646s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/slam/xiaoying_robot/install/imu_complementary_filter/share/imu_complementary_filter/hook/ld_library_path_lib.sh'
+[0.646s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/imu_complementary_filter/bin'
+[0.646s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/imu_complementary_filter/lib/pkgconfig/imu_complementary_filter.pc'
+[0.646s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/imu_complementary_filter/lib/python3.10/site-packages'
+[0.647s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/imu_complementary_filter/bin'
+[0.647s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/imu_complementary_filter/share/imu_complementary_filter/package.ps1'
+[0.648s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/johan/slam/xiaoying_robot/install/imu_complementary_filter/share/imu_complementary_filter/package.dsv'
+[0.648s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/imu_complementary_filter/share/imu_complementary_filter/package.sh'
+[0.650s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/imu_complementary_filter/share/imu_complementary_filter/package.bash'
+[0.651s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/imu_complementary_filter/share/imu_complementary_filter/package.zsh'
+[0.652s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/johan/slam/xiaoying_robot/install/imu_complementary_filter/share/colcon-core/packages/imu_complementary_filter)
+[0.653s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pointcloud_to_laserscan)
+[0.653s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/pointcloud_to_laserscan' for CMake module files
+[0.654s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/pointcloud_to_laserscan' for CMake config files
+[0.654s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/johan/slam/xiaoying_robot/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot:/opt/ros/humble /usr/bin/cmake --install /home/johan/slam/xiaoying_robot/build/pointcloud_to_laserscan
+[0.654s] Level 1:colcon.colcon_core.shell:create_environment_hook('pointcloud_to_laserscan', 'cmake_prefix_path')
+[0.655s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/slam/xiaoying_robot/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/cmake_prefix_path.ps1'
+[0.655s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johan/slam/xiaoying_robot/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/cmake_prefix_path.dsv'
+[0.655s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/slam/xiaoying_robot/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/cmake_prefix_path.sh'
+[0.656s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/pointcloud_to_laserscan/lib'
+[0.656s] Level 1:colcon.colcon_core.shell:create_environment_hook('pointcloud_to_laserscan', 'ld_library_path_lib')
+[0.656s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/slam/xiaoying_robot/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/ld_library_path_lib.ps1'
+[0.656s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johan/slam/xiaoying_robot/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/ld_library_path_lib.dsv'
+[0.656s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/slam/xiaoying_robot/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/ld_library_path_lib.sh'
+[0.657s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/pointcloud_to_laserscan/bin'
+[0.657s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/pointcloud_to_laserscan/lib/pkgconfig/pointcloud_to_laserscan.pc'
+[0.657s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/pointcloud_to_laserscan/lib/python3.10/site-packages'
+[0.657s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/pointcloud_to_laserscan/bin'
+[0.658s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.ps1'
+[0.658s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/johan/slam/xiaoying_robot/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.dsv'
+[0.658s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.sh'
+[0.659s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.bash'
+[0.659s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.zsh'
+[0.659s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/johan/slam/xiaoying_robot/install/pointcloud_to_laserscan/share/colcon-core/packages/pointcloud_to_laserscan)
+[0.674s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/johan/slam/xiaoying_robot/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot:/opt/ros/humble /usr/bin/cmake --install /home/johan/slam/xiaoying_robot/build/livox_ros_driver2
+[0.700s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/johan/slam/xiaoying_robot/build/linefit_ground_segmentation_ros' returned '0': CMAKE_PREFIX_PATH=/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation:/home/johan/slam/xiaoying_robot/install/serial:/home/johan/slam/xiaoying_robot/install/rm_navigation:/home/johan/slam/xiaoying_robot/install/pointcloud_to_laserscan:/home/johan/slam/xiaoying_robot/install/fast_lio:/home/johan/slam/xiaoying_robot/install/livox_ros_driver2:/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation_ros:/home/johan/slam/xiaoying_robot/install/imu_complementary_filter:/home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot:/opt/ros/humble LD_LIBRARY_PATH=/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation/lib:/home/johan/slam/xiaoying_robot/install/serial/lib:/home/johan/slam/xiaoying_robot/install/pointcloud_to_laserscan/lib:/home/johan/slam/xiaoying_robot/install/fast_lio/lib:/home/johan/slam/xiaoying_robot/install/livox_ros_driver2/lib:/home/johan/slam/xiaoying_robot/install/imu_complementary_filter/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/intel/openvino_2024.2.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2024.2.0/runtime/lib/intel64:/usr/local/cuda-12.1/lib64:/opt/intel/openvino_2024.2.0/runtime/lib/intel64 /usr/bin/cmake --build /home/johan/slam/xiaoying_robot/build/linefit_ground_segmentation_ros -- -j16 -l16
+[0.703s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pointcloud_to_laserscan)
+[0.704s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/pointcloud_to_laserscan' for CMake module files
+[0.704s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/pointcloud_to_laserscan' for CMake config files
+[0.705s] Level 1:colcon.colcon_core.shell:create_environment_hook('pointcloud_to_laserscan', 'cmake_prefix_path')
+[0.705s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/slam/xiaoying_robot/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/cmake_prefix_path.ps1'
+[0.705s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johan/slam/xiaoying_robot/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/cmake_prefix_path.dsv'
+[0.706s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/slam/xiaoying_robot/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/cmake_prefix_path.sh'
+[0.707s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/pointcloud_to_laserscan/lib'
+[0.707s] Level 1:colcon.colcon_core.shell:create_environment_hook('pointcloud_to_laserscan', 'ld_library_path_lib')
+[0.707s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/slam/xiaoying_robot/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/ld_library_path_lib.ps1'
+[0.708s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johan/slam/xiaoying_robot/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/ld_library_path_lib.dsv'
+[0.708s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/slam/xiaoying_robot/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/ld_library_path_lib.sh'
+[0.708s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/pointcloud_to_laserscan/bin'
+[0.708s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/pointcloud_to_laserscan/lib/pkgconfig/pointcloud_to_laserscan.pc'
+[0.708s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/pointcloud_to_laserscan/lib/python3.10/site-packages'
+[0.709s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/pointcloud_to_laserscan/bin'
+[0.709s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.ps1'
+[0.710s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/johan/slam/xiaoying_robot/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.dsv'
+[0.712s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.sh'
+[0.714s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.bash'
+[0.714s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.zsh'
+[0.715s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/johan/slam/xiaoying_robot/install/pointcloud_to_laserscan/share/colcon-core/packages/pointcloud_to_laserscan)
+[0.716s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(livox_ros_driver2)
+[0.717s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/livox_ros_driver2' for CMake module files
+[0.718s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/johan/slam/xiaoying_robot/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot:/opt/ros/humble /usr/bin/cmake --install /home/johan/slam/xiaoying_robot/build/livox_ros_driver2
+[0.718s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/livox_ros_driver2' for CMake config files
+[0.718s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'cmake_prefix_path')
+[0.719s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/slam/xiaoying_robot/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.ps1'
+[0.719s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johan/slam/xiaoying_robot/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.dsv'
+[0.720s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/slam/xiaoying_robot/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.sh'
+[0.720s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/livox_ros_driver2/lib'
+[0.720s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'ld_library_path_lib')
+[0.720s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/slam/xiaoying_robot/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.ps1'
+[0.721s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johan/slam/xiaoying_robot/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.dsv'
+[0.721s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/slam/xiaoying_robot/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.sh'
+[0.722s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/livox_ros_driver2/bin'
+[0.722s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/livox_ros_driver2/lib/pkgconfig/livox_ros_driver2.pc'
+[0.722s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/livox_ros_driver2/lib/python3.10/site-packages'
+[0.722s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/livox_ros_driver2/bin'
+[0.723s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/livox_ros_driver2/share/livox_ros_driver2/package.ps1'
+[0.723s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/johan/slam/xiaoying_robot/install/livox_ros_driver2/share/livox_ros_driver2/package.dsv'
+[0.723s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/livox_ros_driver2/share/livox_ros_driver2/package.sh'
+[0.724s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/livox_ros_driver2/share/livox_ros_driver2/package.bash'
+[0.724s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/livox_ros_driver2/share/livox_ros_driver2/package.zsh'
+[0.725s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/johan/slam/xiaoying_robot/install/livox_ros_driver2/share/colcon-core/packages/livox_ros_driver2)
+[0.729s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/johan/slam/xiaoying_robot/build/linefit_ground_segmentation_ros': CMAKE_PREFIX_PATH=/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation:/home/johan/slam/xiaoying_robot/install/serial:/home/johan/slam/xiaoying_robot/install/rm_navigation:/home/johan/slam/xiaoying_robot/install/pointcloud_to_laserscan:/home/johan/slam/xiaoying_robot/install/fast_lio:/home/johan/slam/xiaoying_robot/install/livox_ros_driver2:/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation_ros:/home/johan/slam/xiaoying_robot/install/imu_complementary_filter:/home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot:/opt/ros/humble LD_LIBRARY_PATH=/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation/lib:/home/johan/slam/xiaoying_robot/install/serial/lib:/home/johan/slam/xiaoying_robot/install/pointcloud_to_laserscan/lib:/home/johan/slam/xiaoying_robot/install/fast_lio/lib:/home/johan/slam/xiaoying_robot/install/livox_ros_driver2/lib:/home/johan/slam/xiaoying_robot/install/imu_complementary_filter/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/intel/openvino_2024.2.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2024.2.0/runtime/lib/intel64:/usr/local/cuda-12.1/lib64:/opt/intel/openvino_2024.2.0/runtime/lib/intel64 /usr/bin/cmake --install /home/johan/slam/xiaoying_robot/build/linefit_ground_segmentation_ros
+[0.735s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(linefit_ground_segmentation_ros)
+[0.735s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/johan/slam/xiaoying_robot/build/linefit_ground_segmentation_ros' returned '0': CMAKE_PREFIX_PATH=/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation:/home/johan/slam/xiaoying_robot/install/serial:/home/johan/slam/xiaoying_robot/install/rm_navigation:/home/johan/slam/xiaoying_robot/install/pointcloud_to_laserscan:/home/johan/slam/xiaoying_robot/install/fast_lio:/home/johan/slam/xiaoying_robot/install/livox_ros_driver2:/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation_ros:/home/johan/slam/xiaoying_robot/install/imu_complementary_filter:/home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot:/opt/ros/humble LD_LIBRARY_PATH=/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation/lib:/home/johan/slam/xiaoying_robot/install/serial/lib:/home/johan/slam/xiaoying_robot/install/pointcloud_to_laserscan/lib:/home/johan/slam/xiaoying_robot/install/fast_lio/lib:/home/johan/slam/xiaoying_robot/install/livox_ros_driver2/lib:/home/johan/slam/xiaoying_robot/install/imu_complementary_filter/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/intel/openvino_2024.2.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2024.2.0/runtime/lib/intel64:/usr/local/cuda-12.1/lib64:/opt/intel/openvino_2024.2.0/runtime/lib/intel64 /usr/bin/cmake --install /home/johan/slam/xiaoying_robot/build/linefit_ground_segmentation_ros
+[0.736s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation_ros' for CMake module files
+[0.737s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation_ros' for CMake config files
+[0.737s] Level 1:colcon.colcon_core.shell:create_environment_hook('linefit_ground_segmentation_ros', 'cmake_prefix_path')
+[0.737s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/hook/cmake_prefix_path.ps1'
+[0.738s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/hook/cmake_prefix_path.dsv'
+[0.738s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/hook/cmake_prefix_path.sh'
+[0.739s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation_ros/lib'
+[0.739s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation_ros/bin'
+[0.739s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation_ros/lib/pkgconfig/linefit_ground_segmentation_ros.pc'
+[0.739s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation_ros/lib/python3.10/site-packages'
+[0.740s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation_ros/bin'
+[0.740s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/package.ps1'
+[0.741s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/package.dsv'
+[0.741s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/package.sh'
+[0.741s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/package.bash'
+[0.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/package.zsh'
+[0.742s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation_ros/share/colcon-core/packages/linefit_ground_segmentation_ros)
+[0.745s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/johan/slam/xiaoying_robot/build/pinpoint_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot:/opt/ros/humble /usr/bin/cmake --build /home/johan/slam/xiaoying_robot/build/pinpoint_interfaces -- -j16 -l16
+[0.755s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/johan/slam/xiaoying_robot/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot:/opt/ros/humble /usr/bin/cmake --build /home/johan/slam/xiaoying_robot/build/serial -- -j16 -l16
+[0.766s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(linefit_ground_segmentation_ros)
+[0.766s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation_ros' for CMake module files
+[0.767s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation_ros' for CMake config files
+[0.767s] Level 1:colcon.colcon_core.shell:create_environment_hook('linefit_ground_segmentation_ros', 'cmake_prefix_path')
+[0.768s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/hook/cmake_prefix_path.ps1'
+[0.768s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/hook/cmake_prefix_path.dsv'
+[0.769s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/hook/cmake_prefix_path.sh'
+[0.769s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation_ros/lib'
+[0.769s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation_ros/bin'
+[0.769s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation_ros/lib/pkgconfig/linefit_ground_segmentation_ros.pc'
+[0.770s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation_ros/lib/python3.10/site-packages'
+[0.770s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation_ros/bin'
+[0.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/package.ps1'
+[0.771s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/package.dsv'
+[0.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/package.sh'
+[0.772s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/package.bash'
+[0.772s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/package.zsh'
+[0.773s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation_ros/share/colcon-core/packages/linefit_ground_segmentation_ros)
+[0.794s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/johan/slam/xiaoying_robot/src/auto_pinpoint_robot': PYTHONPATH=/home/johan/slam/xiaoying_robot/build/auto_pinpoint_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/auto_pinpoint_robot build --build-base /home/johan/slam/xiaoying_robot/build/auto_pinpoint_robot/build install --record /home/johan/slam/xiaoying_robot/build/auto_pinpoint_robot/install.log --single-version-externally-managed install_data
+[0.794s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/johan/slam/xiaoying_robot/build/pinpoint_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot:/opt/ros/humble /usr/bin/cmake --install /home/johan/slam/xiaoying_robot/build/pinpoint_interfaces
+[0.800s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/johan/slam/xiaoying_robot/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot:/opt/ros/humble /usr/bin/cmake --install /home/johan/slam/xiaoying_robot/build/serial
+[0.809s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(livox_ros_driver2)
+[0.809s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/livox_ros_driver2' for CMake module files
+[0.810s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/livox_ros_driver2' for CMake config files
+[0.812s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'cmake_prefix_path')
+[0.812s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/slam/xiaoying_robot/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.ps1'
+[0.812s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johan/slam/xiaoying_robot/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.dsv'
+[0.813s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/slam/xiaoying_robot/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.sh'
+[0.813s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/livox_ros_driver2/lib'
+[0.814s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'ld_library_path_lib')
+[0.814s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/slam/xiaoying_robot/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.ps1'
+[0.814s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johan/slam/xiaoying_robot/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.dsv'
+[0.814s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/slam/xiaoying_robot/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.sh'
+[0.814s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/livox_ros_driver2/bin'
+[0.814s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/livox_ros_driver2/lib/pkgconfig/livox_ros_driver2.pc'
+[0.815s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/livox_ros_driver2/lib/python3.10/site-packages'
+[0.815s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/livox_ros_driver2/bin'
+[0.815s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/livox_ros_driver2/share/livox_ros_driver2/package.ps1'
+[0.815s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/johan/slam/xiaoying_robot/install/livox_ros_driver2/share/livox_ros_driver2/package.dsv'
+[0.815s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/livox_ros_driver2/share/livox_ros_driver2/package.sh'
+[0.816s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/livox_ros_driver2/share/livox_ros_driver2/package.bash'
+[0.816s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/livox_ros_driver2/share/livox_ros_driver2/package.zsh'
+[0.816s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/johan/slam/xiaoying_robot/install/livox_ros_driver2/share/colcon-core/packages/livox_ros_driver2)
+[0.816s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/johan/slam/xiaoying_robot/src/localization/fast_lio' with build type 'ament_cmake'
+[0.816s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/johan/slam/xiaoying_robot/src/localization/fast_lio'
+[0.816s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.817s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.824s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/johan/slam/xiaoying_robot/build/fast_lio': CMAKE_PREFIX_PATH=/home/johan/slam/xiaoying_robot/install/livox_ros_driver2:/home/johan/slam/xiaoying_robot/install/serial:/home/johan/slam/xiaoying_robot/install/rm_navigation:/home/johan/slam/xiaoying_robot/install/pointcloud_to_laserscan:/home/johan/slam/xiaoying_robot/install/fast_lio:/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation_ros:/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation:/home/johan/slam/xiaoying_robot/install/imu_complementary_filter:/home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot:/opt/ros/humble LD_LIBRARY_PATH=/home/johan/slam/xiaoying_robot/install/livox_ros_driver2/lib:/home/johan/slam/xiaoying_robot/install/serial/lib:/home/johan/slam/xiaoying_robot/install/pointcloud_to_laserscan/lib:/home/johan/slam/xiaoying_robot/install/fast_lio/lib:/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation/lib:/home/johan/slam/xiaoying_robot/install/imu_complementary_filter/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/intel/openvino_2024.2.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2024.2.0/runtime/lib/intel64:/usr/local/cuda-12.1/lib64:/opt/intel/openvino_2024.2.0/runtime/lib/intel64 /usr/bin/cmake --build /home/johan/slam/xiaoying_robot/build/fast_lio -- -j16 -l16
+[0.831s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pinpoint_interfaces)
+[0.832s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/pinpoint_interfaces' for CMake module files
+[0.832s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/johan/slam/xiaoying_robot/build/pinpoint_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot:/opt/ros/humble /usr/bin/cmake --install /home/johan/slam/xiaoying_robot/build/pinpoint_interfaces
+[0.833s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/pinpoint_interfaces' for CMake config files
+[0.836s] Level 1:colcon.colcon_core.shell:create_environment_hook('pinpoint_interfaces', 'cmake_prefix_path')
+[0.837s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/slam/xiaoying_robot/install/pinpoint_interfaces/share/pinpoint_interfaces/hook/cmake_prefix_path.ps1'
+[0.837s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johan/slam/xiaoying_robot/install/pinpoint_interfaces/share/pinpoint_interfaces/hook/cmake_prefix_path.dsv'
+[0.837s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/slam/xiaoying_robot/install/pinpoint_interfaces/share/pinpoint_interfaces/hook/cmake_prefix_path.sh'
+[0.838s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/pinpoint_interfaces/lib'
+[0.838s] Level 1:colcon.colcon_core.shell:create_environment_hook('pinpoint_interfaces', 'ld_library_path_lib')
+[0.838s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/slam/xiaoying_robot/install/pinpoint_interfaces/share/pinpoint_interfaces/hook/ld_library_path_lib.ps1'
+[0.839s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johan/slam/xiaoying_robot/install/pinpoint_interfaces/share/pinpoint_interfaces/hook/ld_library_path_lib.dsv'
+[0.839s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/slam/xiaoying_robot/install/pinpoint_interfaces/share/pinpoint_interfaces/hook/ld_library_path_lib.sh'
+[0.839s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/pinpoint_interfaces/bin'
+[0.839s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/pinpoint_interfaces/lib/pkgconfig/pinpoint_interfaces.pc'
+[0.839s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/pinpoint_interfaces/lib/python3.10/site-packages'
+[0.840s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/pinpoint_interfaces/bin'
+[0.840s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/pinpoint_interfaces/share/pinpoint_interfaces/package.ps1'
+[0.840s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/johan/slam/xiaoying_robot/install/pinpoint_interfaces/share/pinpoint_interfaces/package.dsv'
+[0.841s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/pinpoint_interfaces/share/pinpoint_interfaces/package.sh'
+[0.841s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/pinpoint_interfaces/share/pinpoint_interfaces/package.bash'
+[0.841s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/pinpoint_interfaces/share/pinpoint_interfaces/package.zsh'
+[0.842s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/johan/slam/xiaoying_robot/install/pinpoint_interfaces/share/colcon-core/packages/pinpoint_interfaces)
+[0.844s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[0.844s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/serial' for CMake module files
+[0.846s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/johan/slam/xiaoying_robot/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot:/opt/ros/humble /usr/bin/cmake --install /home/johan/slam/xiaoying_robot/build/serial
+[0.846s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/serial' for CMake config files
+[0.847s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[0.847s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/slam/xiaoying_robot/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[0.847s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johan/slam/xiaoying_robot/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[0.848s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/slam/xiaoying_robot/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[0.848s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/serial/lib'
+[0.849s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'ld_library_path_lib')
+[0.849s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/slam/xiaoying_robot/install/serial/share/serial/hook/ld_library_path_lib.ps1'
+[0.849s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johan/slam/xiaoying_robot/install/serial/share/serial/hook/ld_library_path_lib.dsv'
+[0.850s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/slam/xiaoying_robot/install/serial/share/serial/hook/ld_library_path_lib.sh'
+[0.850s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/serial/bin'
+[0.850s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/serial/lib/pkgconfig/serial.pc'
+[0.850s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/serial/lib/python3.10/site-packages'
+[0.851s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/serial/bin'
+[0.851s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/serial/share/serial/package.ps1'
+[0.852s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/johan/slam/xiaoying_robot/install/serial/share/serial/package.dsv'
+[0.852s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/serial/share/serial/package.sh'
+[0.853s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/serial/share/serial/package.bash'
+[0.853s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/serial/share/serial/package.zsh'
+[0.854s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/johan/slam/xiaoying_robot/install/serial/share/colcon-core/packages/serial)
+[0.884s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pinpoint_interfaces)
+[0.884s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/pinpoint_interfaces' for CMake module files
+[0.884s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/pinpoint_interfaces' for CMake config files
+[0.884s] Level 1:colcon.colcon_core.shell:create_environment_hook('pinpoint_interfaces', 'cmake_prefix_path')
+[0.885s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/slam/xiaoying_robot/install/pinpoint_interfaces/share/pinpoint_interfaces/hook/cmake_prefix_path.ps1'
+[0.885s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johan/slam/xiaoying_robot/install/pinpoint_interfaces/share/pinpoint_interfaces/hook/cmake_prefix_path.dsv'
+[0.885s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/slam/xiaoying_robot/install/pinpoint_interfaces/share/pinpoint_interfaces/hook/cmake_prefix_path.sh'
+[0.886s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/pinpoint_interfaces/lib'
+[0.886s] Level 1:colcon.colcon_core.shell:create_environment_hook('pinpoint_interfaces', 'ld_library_path_lib')
+[0.886s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/slam/xiaoying_robot/install/pinpoint_interfaces/share/pinpoint_interfaces/hook/ld_library_path_lib.ps1'
+[0.886s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johan/slam/xiaoying_robot/install/pinpoint_interfaces/share/pinpoint_interfaces/hook/ld_library_path_lib.dsv'
+[0.887s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/slam/xiaoying_robot/install/pinpoint_interfaces/share/pinpoint_interfaces/hook/ld_library_path_lib.sh'
+[0.887s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/pinpoint_interfaces/bin'
+[0.887s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/pinpoint_interfaces/lib/pkgconfig/pinpoint_interfaces.pc'
+[0.887s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/pinpoint_interfaces/lib/python3.10/site-packages'
+[0.887s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/pinpoint_interfaces/bin'
+[0.888s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/pinpoint_interfaces/share/pinpoint_interfaces/package.ps1'
+[0.888s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/johan/slam/xiaoying_robot/install/pinpoint_interfaces/share/pinpoint_interfaces/package.dsv'
+[0.888s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/pinpoint_interfaces/share/pinpoint_interfaces/package.sh'
+[0.889s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/pinpoint_interfaces/share/pinpoint_interfaces/package.bash'
+[0.889s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/pinpoint_interfaces/share/pinpoint_interfaces/package.zsh'
+[0.889s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/johan/slam/xiaoying_robot/install/pinpoint_interfaces/share/colcon-core/packages/pinpoint_interfaces)
+[0.913s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[0.913s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/serial' for CMake module files
+[0.914s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/serial' for CMake config files
+[0.914s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[0.914s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/slam/xiaoying_robot/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[0.914s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johan/slam/xiaoying_robot/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[0.915s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/slam/xiaoying_robot/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[0.915s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/serial/lib'
+[0.915s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'ld_library_path_lib')
+[0.915s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/slam/xiaoying_robot/install/serial/share/serial/hook/ld_library_path_lib.ps1'
+[0.916s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johan/slam/xiaoying_robot/install/serial/share/serial/hook/ld_library_path_lib.dsv'
+[0.916s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/slam/xiaoying_robot/install/serial/share/serial/hook/ld_library_path_lib.sh'
+[0.916s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/serial/bin'
+[0.916s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/serial/lib/pkgconfig/serial.pc'
+[0.916s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/serial/lib/python3.10/site-packages'
+[0.916s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/serial/bin'
+[0.916s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/serial/share/serial/package.ps1'
+[0.917s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/johan/slam/xiaoying_robot/install/serial/share/serial/package.dsv'
+[0.917s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/serial/share/serial/package.sh'
+[0.917s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/serial/share/serial/package.bash'
+[0.917s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/serial/share/serial/package.zsh'
+[0.918s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/johan/slam/xiaoying_robot/install/serial/share/colcon-core/packages/serial)
+[0.994s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot' for CMake module files
+[0.995s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/johan/slam/xiaoying_robot/src/auto_pinpoint_robot' returned '0': PYTHONPATH=/home/johan/slam/xiaoying_robot/build/auto_pinpoint_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/auto_pinpoint_robot build --build-base /home/johan/slam/xiaoying_robot/build/auto_pinpoint_robot/build install --record /home/johan/slam/xiaoying_robot/build/auto_pinpoint_robot/install.log --single-version-externally-managed install_data
+[0.995s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot' for CMake config files
+[0.996s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot/lib'
+[0.996s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot/bin'
+[0.996s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot/lib/pkgconfig/auto_pinpoint_robot.pc'
+[0.996s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot/lib/python3.10/site-packages'
+[0.997s] Level 1:colcon.colcon_core.shell:create_environment_hook('auto_pinpoint_robot', 'pythonpath')
+[0.997s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot/share/auto_pinpoint_robot/hook/pythonpath.ps1'
+[0.997s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot/share/auto_pinpoint_robot/hook/pythonpath.dsv'
+[0.998s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot/share/auto_pinpoint_robot/hook/pythonpath.sh'
+[0.998s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot/bin'
+[0.998s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(auto_pinpoint_robot)
+[0.998s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot/share/auto_pinpoint_robot/package.ps1'
+[0.999s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot/share/auto_pinpoint_robot/package.dsv'
+[0.999s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot/share/auto_pinpoint_robot/package.sh'
+[0.999s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot/share/auto_pinpoint_robot/package.bash'
+[0.999s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot/share/auto_pinpoint_robot/package.zsh'
+[0.999s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot/share/colcon-core/packages/auto_pinpoint_robot)
+[1.083s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/johan/slam/xiaoying_robot/build/fast_lio' returned '0': CMAKE_PREFIX_PATH=/home/johan/slam/xiaoying_robot/install/livox_ros_driver2:/home/johan/slam/xiaoying_robot/install/serial:/home/johan/slam/xiaoying_robot/install/rm_navigation:/home/johan/slam/xiaoying_robot/install/pointcloud_to_laserscan:/home/johan/slam/xiaoying_robot/install/fast_lio:/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation_ros:/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation:/home/johan/slam/xiaoying_robot/install/imu_complementary_filter:/home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot:/opt/ros/humble LD_LIBRARY_PATH=/home/johan/slam/xiaoying_robot/install/livox_ros_driver2/lib:/home/johan/slam/xiaoying_robot/install/serial/lib:/home/johan/slam/xiaoying_robot/install/pointcloud_to_laserscan/lib:/home/johan/slam/xiaoying_robot/install/fast_lio/lib:/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation/lib:/home/johan/slam/xiaoying_robot/install/imu_complementary_filter/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/intel/openvino_2024.2.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2024.2.0/runtime/lib/intel64:/usr/local/cuda-12.1/lib64:/opt/intel/openvino_2024.2.0/runtime/lib/intel64 /usr/bin/cmake --build /home/johan/slam/xiaoying_robot/build/fast_lio -- -j16 -l16
+[1.132s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/johan/slam/xiaoying_robot/build/fast_lio': CMAKE_PREFIX_PATH=/home/johan/slam/xiaoying_robot/install/livox_ros_driver2:/home/johan/slam/xiaoying_robot/install/serial:/home/johan/slam/xiaoying_robot/install/rm_navigation:/home/johan/slam/xiaoying_robot/install/pointcloud_to_laserscan:/home/johan/slam/xiaoying_robot/install/fast_lio:/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation_ros:/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation:/home/johan/slam/xiaoying_robot/install/imu_complementary_filter:/home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot:/opt/ros/humble LD_LIBRARY_PATH=/home/johan/slam/xiaoying_robot/install/livox_ros_driver2/lib:/home/johan/slam/xiaoying_robot/install/serial/lib:/home/johan/slam/xiaoying_robot/install/pointcloud_to_laserscan/lib:/home/johan/slam/xiaoying_robot/install/fast_lio/lib:/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation/lib:/home/johan/slam/xiaoying_robot/install/imu_complementary_filter/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/intel/openvino_2024.2.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2024.2.0/runtime/lib/intel64:/usr/local/cuda-12.1/lib64:/opt/intel/openvino_2024.2.0/runtime/lib/intel64 /usr/bin/cmake --install /home/johan/slam/xiaoying_robot/build/fast_lio
+[1.167s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fast_lio)
+[1.168s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/fast_lio' for CMake module files
+[1.168s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/johan/slam/xiaoying_robot/build/fast_lio' returned '0': CMAKE_PREFIX_PATH=/home/johan/slam/xiaoying_robot/install/livox_ros_driver2:/home/johan/slam/xiaoying_robot/install/serial:/home/johan/slam/xiaoying_robot/install/rm_navigation:/home/johan/slam/xiaoying_robot/install/pointcloud_to_laserscan:/home/johan/slam/xiaoying_robot/install/fast_lio:/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation_ros:/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation:/home/johan/slam/xiaoying_robot/install/imu_complementary_filter:/home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot:/opt/ros/humble LD_LIBRARY_PATH=/home/johan/slam/xiaoying_robot/install/livox_ros_driver2/lib:/home/johan/slam/xiaoying_robot/install/serial/lib:/home/johan/slam/xiaoying_robot/install/pointcloud_to_laserscan/lib:/home/johan/slam/xiaoying_robot/install/fast_lio/lib:/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation/lib:/home/johan/slam/xiaoying_robot/install/imu_complementary_filter/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/intel/openvino_2024.2.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2024.2.0/runtime/lib/intel64:/usr/local/cuda-12.1/lib64:/opt/intel/openvino_2024.2.0/runtime/lib/intel64 /usr/bin/cmake --install /home/johan/slam/xiaoying_robot/build/fast_lio
+[1.168s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/fast_lio' for CMake config files
+[1.168s] Level 1:colcon.colcon_core.shell:create_environment_hook('fast_lio', 'cmake_prefix_path')
+[1.169s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/slam/xiaoying_robot/install/fast_lio/share/fast_lio/hook/cmake_prefix_path.ps1'
+[1.169s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johan/slam/xiaoying_robot/install/fast_lio/share/fast_lio/hook/cmake_prefix_path.dsv'
+[1.169s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/slam/xiaoying_robot/install/fast_lio/share/fast_lio/hook/cmake_prefix_path.sh'
+[1.169s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/fast_lio/lib'
+[1.169s] Level 1:colcon.colcon_core.shell:create_environment_hook('fast_lio', 'ld_library_path_lib')
+[1.170s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/slam/xiaoying_robot/install/fast_lio/share/fast_lio/hook/ld_library_path_lib.ps1'
+[1.170s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johan/slam/xiaoying_robot/install/fast_lio/share/fast_lio/hook/ld_library_path_lib.dsv'
+[1.170s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/slam/xiaoying_robot/install/fast_lio/share/fast_lio/hook/ld_library_path_lib.sh'
+[1.170s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/fast_lio/bin'
+[1.170s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/fast_lio/lib/pkgconfig/fast_lio.pc'
+[1.170s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/fast_lio/lib/python3.10/site-packages'
+[1.170s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/fast_lio/bin'
+[1.171s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/fast_lio/share/fast_lio/package.ps1'
+[1.171s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/johan/slam/xiaoying_robot/install/fast_lio/share/fast_lio/package.dsv'
+[1.171s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/fast_lio/share/fast_lio/package.sh'
+[1.171s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/fast_lio/share/fast_lio/package.bash'
+[1.171s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/fast_lio/share/fast_lio/package.zsh'
+[1.171s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/johan/slam/xiaoying_robot/install/fast_lio/share/colcon-core/packages/fast_lio)
+[1.220s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fast_lio)
+[1.220s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/fast_lio' for CMake module files
+[1.221s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/fast_lio' for CMake config files
+[1.221s] Level 1:colcon.colcon_core.shell:create_environment_hook('fast_lio', 'cmake_prefix_path')
+[1.221s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/slam/xiaoying_robot/install/fast_lio/share/fast_lio/hook/cmake_prefix_path.ps1'
+[1.221s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johan/slam/xiaoying_robot/install/fast_lio/share/fast_lio/hook/cmake_prefix_path.dsv'
+[1.221s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/slam/xiaoying_robot/install/fast_lio/share/fast_lio/hook/cmake_prefix_path.sh'
+[1.222s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/fast_lio/lib'
+[1.222s] Level 1:colcon.colcon_core.shell:create_environment_hook('fast_lio', 'ld_library_path_lib')
+[1.222s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/slam/xiaoying_robot/install/fast_lio/share/fast_lio/hook/ld_library_path_lib.ps1'
+[1.222s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/johan/slam/xiaoying_robot/install/fast_lio/share/fast_lio/hook/ld_library_path_lib.dsv'
+[1.222s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/johan/slam/xiaoying_robot/install/fast_lio/share/fast_lio/hook/ld_library_path_lib.sh'
+[1.222s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/fast_lio/bin'
+[1.222s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/fast_lio/lib/pkgconfig/fast_lio.pc'
+[1.222s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/fast_lio/lib/python3.10/site-packages'
+[1.223s] Level 1:colcon.colcon_core.environment:checking '/home/johan/slam/xiaoying_robot/install/fast_lio/bin'
+[1.223s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/fast_lio/share/fast_lio/package.ps1'
+[1.223s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/johan/slam/xiaoying_robot/install/fast_lio/share/fast_lio/package.dsv'
+[1.223s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/fast_lio/share/fast_lio/package.sh'
+[1.223s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/fast_lio/share/fast_lio/package.bash'
+[1.224s] INFO:colcon.colcon_core.shell:Creating package script '/home/johan/slam/xiaoying_robot/install/fast_lio/share/fast_lio/package.zsh'
+[1.224s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/johan/slam/xiaoying_robot/install/fast_lio/share/colcon-core/packages/fast_lio)
+[1.224s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.224s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.224s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.224s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.228s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.228s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.228s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.239s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.239s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/johan/slam/xiaoying_robot/install/local_setup.ps1'
+[1.240s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/johan/slam/xiaoying_robot/install/_local_setup_util_ps1.py'
+[1.241s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/johan/slam/xiaoying_robot/install/setup.ps1'
+[1.241s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/johan/slam/xiaoying_robot/install/local_setup.sh'
+[1.242s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/johan/slam/xiaoying_robot/install/_local_setup_util_sh.py'
+[1.242s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/johan/slam/xiaoying_robot/install/setup.sh'
+[1.243s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/johan/slam/xiaoying_robot/install/local_setup.bash'
+[1.243s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/johan/slam/xiaoying_robot/install/setup.bash'
+[1.244s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/johan/slam/xiaoying_robot/install/local_setup.zsh'
+[1.244s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/johan/slam/xiaoying_robot/install/setup.zsh'

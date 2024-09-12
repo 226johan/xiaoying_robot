@@ -1,0 +1,6 @@
+{
+  "package_name": "serial",
+  "non_idl_tuples": [
+    "/home/johan/slam/xiaoying_robot/src/serial:msg/Twist.msg"
+  ]
+}

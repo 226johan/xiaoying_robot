@@ -1,0 +1,24 @@
+running egg_info
+writing ../../build/auto_pinpoint_robot/auto_pinpoint_robot.egg-info/PKG-INFO
+writing dependency_links to ../../build/auto_pinpoint_robot/auto_pinpoint_robot.egg-info/dependency_links.txt
+writing entry points to ../../build/auto_pinpoint_robot/auto_pinpoint_robot.egg-info/entry_points.txt
+writing requirements to ../../build/auto_pinpoint_robot/auto_pinpoint_robot.egg-info/requires.txt
+writing top-level names to ../../build/auto_pinpoint_robot/auto_pinpoint_robot.egg-info/top_level.txt
+reading manifest file '../../build/auto_pinpoint_robot/auto_pinpoint_robot.egg-info/SOURCES.txt'
+writing manifest file '../../build/auto_pinpoint_robot/auto_pinpoint_robot.egg-info/SOURCES.txt'
+running build
+running build_py
+copying auto_pinpoint_robot/patrol_node.py -> /home/johan/slam/xiaoying_robot/build/auto_pinpoint_robot/build/lib/auto_pinpoint_robot
+running install
+running install_lib
+copying /home/johan/slam/xiaoying_robot/build/auto_pinpoint_robot/build/lib/auto_pinpoint_robot/patrol_node.py -> /home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot/lib/python3.10/site-packages/auto_pinpoint_robot
+byte-compiling /home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot/lib/python3.10/site-packages/auto_pinpoint_robot/patrol_node.py to patrol_node.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot/lib/python3.10/site-packages/auto_pinpoint_robot-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/auto_pinpoint_robot/auto_pinpoint_robot.egg-info to /home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot/lib/python3.10/site-packages/auto_pinpoint_robot-0.0.0-py3.10.egg-info
+running install_scripts
+Installing param_test script to /home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot/lib/auto_pinpoint_robot
+Installing patrol_node script to /home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot/lib/auto_pinpoint_robot
+Installing speaker script to /home/johan/slam/xiaoying_robot/install/auto_pinpoint_robot/lib/auto_pinpoint_robot
+writing list of installed files to '/home/johan/slam/xiaoying_robot/build/auto_pinpoint_robot/install.log'

@@ -1,0 +1,6 @@
+{
+  "package_name": "pinpoint_interfaces",
+  "non_idl_tuples": [
+    "/home/johan/slam/xiaoying_robot/src/pinpoint_interfaces:srv/SpeachText.srv"
+  ]
+}

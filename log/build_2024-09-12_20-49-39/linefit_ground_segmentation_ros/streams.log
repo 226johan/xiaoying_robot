@@ -1,0 +1,115 @@
+[0.009s] Invoking command in '/home/johan/slam/xiaoying_robot/build/linefit_ground_segmentation_ros': AMENT_PREFIX_PATH=/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation:/opt/ros/humble LD_LIBRARY_PATH=/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/intel/openvino_2024.2.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2024.2.0/runtime/lib/intel64:/usr/local/cuda-12.1/lib64:/opt/intel/openvino_2024.2.0/runtime/lib/intel64 /usr/bin/cmake /home/johan/slam/xiaoying_robot/src/perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros -DCMAKE_INSTALL_PREFIX=/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation_ros
+[0.063s] -- The C compiler identification is GNU 11.4.0
+[0.099s] -- The CXX compiler identification is GNU 11.4.0
+[0.104s] -- Detecting C compiler ABI info
+[0.151s] -- Detecting C compiler ABI info - done
+[0.161s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.161s] -- Detecting C compile features
+[0.161s] -- Detecting C compile features - done
+[0.164s] -- Detecting CXX compiler ABI info
+[0.216s] -- Detecting CXX compiler ABI info - done
+[0.221s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.221s] -- Detecting CXX compile features
+[0.221s] -- Detecting CXX compile features - done
+[0.223s] -- Found ament_cmake_auto: 1.3.9 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.330s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.468s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.471s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.477s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.486s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.499s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.546s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.547s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.611s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.630s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.664s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.671s] -- Looking for pthread.h
+[0.716s] -- Looking for pthread.h - found
+[0.716s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.764s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.765s] -- Found Threads: TRUE  
+[1.351s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.352s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.352s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.373s] -- Checking for module 'eigen3'
+[1.381s] --   Found eigen3, version 3.4.0
+[1.399s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.399s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.423s] -- Checking for module 'flann'
+[1.432s] --   Found flann, version 1.9.1
+[1.455s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.455s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[2.077s] -- Checking for module 'libusb-1.0'
+[2.086s] --   Found libusb-1.0, version 1.0.25
+[2.107s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[2.107s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.145s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.251s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.255s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.260s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.359s] -- Found Qhull version 8.0.2
+[2.461s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.559s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[2.559s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[2.560s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[2.561s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[2.561s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[2.562s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[2.562s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[2.562s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[2.563s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[2.564s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[2.564s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[2.565s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[2.566s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[2.566s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[2.567s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[2.568s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[2.568s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[2.569s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[2.570s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[2.570s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[2.571s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[2.571s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[2.571s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[2.572s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[2.572s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[2.801s] -- Configuring done
+[2.839s] -- Generating done
+[2.841s] -- Build files have been written to: /home/johan/slam/xiaoying_robot/build/linefit_ground_segmentation_ros
+[2.854s] Invoked command in '/home/johan/slam/xiaoying_robot/build/linefit_ground_segmentation_ros' returned '0': AMENT_PREFIX_PATH=/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation:/opt/ros/humble LD_LIBRARY_PATH=/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/intel/openvino_2024.2.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2024.2.0/runtime/lib/intel64:/usr/local/cuda-12.1/lib64:/opt/intel/openvino_2024.2.0/runtime/lib/intel64 /usr/bin/cmake /home/johan/slam/xiaoying_robot/src/perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros -DCMAKE_INSTALL_PREFIX=/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation_ros
+[2.855s] Invoking command in '/home/johan/slam/xiaoying_robot/build/linefit_ground_segmentation_ros': AMENT_PREFIX_PATH=/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation:/opt/ros/humble LD_LIBRARY_PATH=/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/intel/openvino_2024.2.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2024.2.0/runtime/lib/intel64:/usr/local/cuda-12.1/lib64:/opt/intel/openvino_2024.2.0/runtime/lib/intel64 /usr/bin/cmake --build /home/johan/slam/xiaoying_robot/build/linefit_ground_segmentation_ros -- -j16 -l16
+[2.893s] [ 25%] [32mBuilding CXX object CMakeFiles/ground_segmentation_node.dir/src/ground_segmentation_node.cc.o[0m
+[2.905s] [ 50%] [32mBuilding CXX object CMakeFiles/ground_segmentation_test_node.dir/src/ground_segmentation_test_node.cc.o[0m
+[9.557s] [ 75%] [32m[1mLinking CXX executable ground_segmentation_test_node[0m
+[10.007s] [ 75%] Built target ground_segmentation_test_node
+[15.816s] [100%] [32m[1mLinking CXX executable ground_segmentation_node[0m
+[16.260s] [100%] Built target ground_segmentation_node
+[16.269s] Invoked command in '/home/johan/slam/xiaoying_robot/build/linefit_ground_segmentation_ros' returned '0': AMENT_PREFIX_PATH=/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation:/opt/ros/humble LD_LIBRARY_PATH=/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/intel/openvino_2024.2.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2024.2.0/runtime/lib/intel64:/usr/local/cuda-12.1/lib64:/opt/intel/openvino_2024.2.0/runtime/lib/intel64 /usr/bin/cmake --build /home/johan/slam/xiaoying_robot/build/linefit_ground_segmentation_ros -- -j16 -l16
+[16.289s] Invoking command in '/home/johan/slam/xiaoying_robot/build/linefit_ground_segmentation_ros': AMENT_PREFIX_PATH=/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation:/opt/ros/humble LD_LIBRARY_PATH=/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/intel/openvino_2024.2.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2024.2.0/runtime/lib/intel64:/usr/local/cuda-12.1/lib64:/opt/intel/openvino_2024.2.0/runtime/lib/intel64 /usr/bin/cmake --install /home/johan/slam/xiaoying_robot/build/linefit_ground_segmentation_ros
+[16.295s] -- Install configuration: ""
+[16.295s] -- Installing: /home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation_ros/lib/linefit_ground_segmentation_ros/ground_segmentation_node
+[16.296s] -- Set runtime path of "/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation_ros/lib/linefit_ground_segmentation_ros/ground_segmentation_node" to ""
+[16.296s] -- Installing: /home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation_ros/lib/linefit_ground_segmentation_ros/ground_segmentation_test_node
+[16.296s] -- Set runtime path of "/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation_ros/lib/linefit_ground_segmentation_ros/ground_segmentation_test_node" to ""
+[16.296s] -- Installing: /home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/launch
+[16.296s] -- Installing: /home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/launch/segmentation.launch.py
+[16.296s] -- Installing: /home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/launch/segmentation_params.yaml
+[16.296s] -- Installing: /home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/launch/test.launch.py
+[16.296s] -- Installing: /home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation_ros/share/ament_index/resource_index/package_run_dependencies/linefit_ground_segmentation_ros
+[16.296s] -- Installing: /home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation_ros/share/ament_index/resource_index/parent_prefix_path/linefit_ground_segmentation_ros
+[16.296s] -- Installing: /home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/environment/ament_prefix_path.sh
+[16.297s] -- Installing: /home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/environment/ament_prefix_path.dsv
+[16.297s] -- Installing: /home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/environment/path.sh
+[16.297s] -- Installing: /home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/environment/path.dsv
+[16.297s] -- Installing: /home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/local_setup.bash
+[16.297s] -- Installing: /home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/local_setup.sh
+[16.297s] -- Installing: /home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/local_setup.zsh
+[16.297s] -- Installing: /home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/local_setup.dsv
+[16.297s] -- Installing: /home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/package.dsv
+[16.297s] -- Installing: /home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation_ros/share/ament_index/resource_index/packages/linefit_ground_segmentation_ros
+[16.297s] -- Installing: /home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.297s] -- Installing: /home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/cmake/linefit_ground_segmentation_rosConfig.cmake
+[16.297s] -- Installing: /home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/cmake/linefit_ground_segmentation_rosConfig-version.cmake
+[16.298s] -- Installing: /home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/package.xml
+[16.300s] Invoked command in '/home/johan/slam/xiaoying_robot/build/linefit_ground_segmentation_ros' returned '0': AMENT_PREFIX_PATH=/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation:/opt/ros/humble LD_LIBRARY_PATH=/home/johan/slam/xiaoying_robot/install/linefit_ground_segmentation/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/intel/openvino_2024.2.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2024.2.0/runtime/lib/intel64:/usr/local/cuda-12.1/lib64:/opt/intel/openvino_2024.2.0/runtime/lib/intel64 /usr/bin/cmake --install /home/johan/slam/xiaoying_robot/build/linefit_ground_segmentation_ros

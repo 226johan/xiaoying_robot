@@ -1,0 +1,244 @@
+[0.185s] Invoking command in '/home/johan/slam/xiaoying_robot/build/serial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/johan/slam/xiaoying_robot/src/serial -DCMAKE_INSTALL_PREFIX=/home/johan/slam/xiaoying_robot/install/serial
+[0.233s] -- The C compiler identification is GNU 11.4.0
+[0.271s] -- The CXX compiler identification is GNU 11.4.0
+[0.275s] -- Detecting C compiler ABI info
+[0.321s] -- Detecting C compiler ABI info - done
+[0.330s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.330s] -- Detecting C compile features
+[0.331s] -- Detecting C compile features - done
+[0.334s] -- Detecting CXX compiler ABI info
+[0.393s] -- Detecting CXX compiler ABI info - done
+[0.403s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.403s] -- Detecting CXX compile features
+[0.403s] -- Detecting CXX compile features - done
+[0.406s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.524s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.602s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.652s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.657s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.668s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.683s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.706s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.759s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.761s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.833s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.858s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.892s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.898s] -- Looking for pthread.h
+[0.944s] -- Looking for pthread.h - found
+[0.945s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.996s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.998s] -- Found Threads: TRUE  
+[1.121s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.150s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.321s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.574s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.657s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.685s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.686s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.717s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.717s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.717s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.717s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.732s] -- Found PythonExtra: .so  
+[1.764s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.772s] -- Configuring done
+[1.806s] -- Generating done
+[1.810s] -- Build files have been written to: /home/johan/slam/xiaoying_robot/build/serial
+[1.827s] Invoked command in '/home/johan/slam/xiaoying_robot/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/johan/slam/xiaoying_robot/src/serial -DCMAKE_INSTALL_PREFIX=/home/johan/slam/xiaoying_robot/install/serial
+[1.829s] Invoking command in '/home/johan/slam/xiaoying_robot/build/serial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/johan/slam/xiaoying_robot/build/serial -- -j16 -l16
+[1.873s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.875s] [  6%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.876s] [  9%] [32mBuilding CXX object CMakeFiles/serial_node.dir/src/serial_node.cpp.o[0m
+[1.884s] [  9%] Built target ament_cmake_python_copy_serial
+[2.092s] [  9%] Built target serial__cpp
+[2.101s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.102s] [ 18%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.102s] [ 18%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.218s] [ 21%] [32mBuilding C object CMakeFiles/serial__rosidl_generator_c.dir/rosidl_generator_c/serial/msg/detail/twist__functions.c.o[0m
+[2.253s] running egg_info
+[2.253s] creating serial.egg-info
+[2.254s] writing serial.egg-info/PKG-INFO
+[2.254s] writing dependency_links to serial.egg-info/dependency_links.txt
+[2.255s] writing top-level names to serial.egg-info/top_level.txt
+[2.255s] writing manifest file 'serial.egg-info/SOURCES.txt'
+[2.258s] reading manifest file 'serial.egg-info/SOURCES.txt'
+[2.259s] writing manifest file 'serial.egg-info/SOURCES.txt'
+[2.276s] [ 24%] [32m[1mLinking C shared library libserial__rosidl_generator_c.so[0m
+[2.308s] [ 24%] Built target ament_cmake_python_build_serial_egg
+[2.319s] [ 24%] Built target serial__rosidl_generator_c
+[2.329s] [ 27%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.335s] [ 30%] [32mBuilding CXX object CMakeFiles/serial__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/serial/msg/detail/twist__type_support.cpp.o[0m
+[2.336s] [ 33%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.344s] [ 36%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.368s] [ 39%] [32mBuilding CXX object CMakeFiles/serial__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/serial/msg/twist__type_support.cpp.o[0m
+[2.399s] [ 42%] [32mBuilding CXX object CMakeFiles/serial__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/serial/msg/detail/dds_fastrtps/twist__type_support.cpp.o[0m
+[2.554s] [ 45%] [32mBuilding CXX object CMakeFiles/serial__rosidl_typesupport_c.dir/rosidl_typesupport_c/serial/msg/twist__type_support.cpp.o[0m
+[2.572s] [ 48%] [32mBuilding CXX object CMakeFiles/serial__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/serial/msg/detail/twist__type_support_c.cpp.o[0m
+[2.581s] [ 51%] [32m[1mLinking CXX shared library libserial__rosidl_typesupport_c.so[0m
+[2.622s] [ 51%] Built target serial__rosidl_typesupport_c
+[2.633s] [ 54%] [32mBuilding C object CMakeFiles/serial__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/serial/msg/detail/twist__type_support.c.o[0m
+[2.665s] [ 57%] [32m[1mLinking C shared library libserial__rosidl_typesupport_introspection_c.so[0m
+[2.695s] [ 57%] Built target serial__rosidl_typesupport_introspection_c
+[2.695s] [ 60%] [32m[1mLinking CXX shared library libserial__rosidl_typesupport_cpp.so[0m
+[2.743s] [ 60%] Built target serial__rosidl_typesupport_cpp
+[2.793s] [ 63%] [32m[1mLinking CXX shared library libserial__rosidl_typesupport_introspection_cpp.so[0m
+[2.813s] [ 66%] [32m[1mLinking CXX shared library libserial__rosidl_typesupport_fastrtps_c.so[0m
+[2.841s] [ 66%] Built target serial__rosidl_typesupport_introspection_cpp
+[2.857s] [ 69%] [32m[1mLinking CXX shared library libserial__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.877s] [ 69%] Built target serial__rosidl_typesupport_fastrtps_c
+[2.951s] [ 69%] Built target serial__rosidl_typesupport_fastrtps_cpp
+[2.975s] [ 69%] Built target serial
+[2.998s] [ 72%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.343s] [ 72%] Built target serial__py
+[3.368s] [ 75%] [32mBuilding C object CMakeFiles/serial__rosidl_generator_py.dir/rosidl_generator_py/serial/msg/_twist_s.c.o[0m
+[3.482s] [ 78%] [32m[1mLinking C shared library rosidl_generator_py/serial/libserial__rosidl_generator_py.so[0m
+[3.529s] [ 78%] Built target serial__rosidl_generator_py
+[3.546s] [ 81%] [32mBuilding C object CMakeFiles/serial__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/serial/_serial_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.554s] [ 87%] [32mBuilding C object CMakeFiles/serial__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/serial/_serial_s.ep.rosidl_typesupport_c.c.o[0m
+[3.554s] [ 87%] [32mBuilding C object CMakeFiles/serial__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/serial/_serial_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.606s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/serial/serial_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.631s] [ 90%] Built target serial__rosidl_typesupport_fastrtps_c__pyext
+[3.654s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/serial/serial_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.658s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/serial/serial_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.676s] [ 96%] Built target serial__rosidl_typesupport_c__pyext
+[3.697s] [ 96%] Built target serial__rosidl_typesupport_introspection_c__pyext
+[12.174s] [100%] [32m[1mLinking CXX executable serial_node[0m
+[12.429s] [100%] Built target serial_node
+[12.438s] Invoked command in '/home/johan/slam/xiaoying_robot/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/johan/slam/xiaoying_robot/build/serial -- -j16 -l16
+[12.476s] Invoking command in '/home/johan/slam/xiaoying_robot/build/serial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/johan/slam/xiaoying_robot/build/serial
+[12.481s] -- Install configuration: ""
+[12.481s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/share/ament_index/resource_index/rosidl_interfaces/serial
+[12.481s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/include/serial/serial
+[12.482s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/include/serial/serial/msg
+[12.482s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/include/serial/serial/msg/rosidl_generator_c__visibility_control.h
+[12.482s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/include/serial/serial/msg/detail
+[12.482s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/include/serial/serial/msg/detail/twist__struct.h
+[12.482s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/include/serial/serial/msg/detail/twist__type_support.h
+[12.482s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/include/serial/serial/msg/detail/twist__functions.c
+[12.482s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/include/serial/serial/msg/detail/twist__functions.h
+[12.482s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/include/serial/serial/msg/twist.h
+[12.482s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/share/serial/environment/library_path.sh
+[12.482s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/share/serial/environment/library_path.dsv
+[12.483s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/lib/libserial__rosidl_generator_c.so
+[12.483s] -- Set runtime path of "/home/johan/slam/xiaoying_robot/install/serial/lib/libserial__rosidl_generator_c.so" to ""
+[12.483s] -- Up-to-date: /home/johan/slam/xiaoying_robot/install/serial/include/serial/serial
+[12.483s] -- Up-to-date: /home/johan/slam/xiaoying_robot/install/serial/include/serial/serial/msg
+[12.483s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/include/serial/serial/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[12.483s] -- Up-to-date: /home/johan/slam/xiaoying_robot/install/serial/include/serial/serial/msg/detail
+[12.483s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/include/serial/serial/msg/detail/twist__rosidl_typesupport_fastrtps_c.h
+[12.483s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/lib/libserial__rosidl_typesupport_fastrtps_c.so
+[12.483s] -- Set runtime path of "/home/johan/slam/xiaoying_robot/install/serial/lib/libserial__rosidl_typesupport_fastrtps_c.so" to ""
+[12.483s] -- Up-to-date: /home/johan/slam/xiaoying_robot/install/serial/include/serial/serial
+[12.484s] -- Up-to-date: /home/johan/slam/xiaoying_robot/install/serial/include/serial/serial/msg
+[12.484s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/include/serial/serial/msg/twist.hpp
+[12.484s] -- Up-to-date: /home/johan/slam/xiaoying_robot/install/serial/include/serial/serial/msg/detail
+[12.484s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/include/serial/serial/msg/detail/twist__traits.hpp
+[12.484s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/include/serial/serial/msg/detail/twist__builder.hpp
+[12.484s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/include/serial/serial/msg/detail/twist__struct.hpp
+[12.484s] -- Up-to-date: /home/johan/slam/xiaoying_robot/install/serial/include/serial/serial
+[12.484s] -- Up-to-date: /home/johan/slam/xiaoying_robot/install/serial/include/serial/serial/msg
+[12.484s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/include/serial/serial/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[12.484s] -- Up-to-date: /home/johan/slam/xiaoying_robot/install/serial/include/serial/serial/msg/detail
+[12.485s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/include/serial/serial/msg/detail/dds_fastrtps
+[12.485s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/include/serial/serial/msg/detail/twist__rosidl_typesupport_fastrtps_cpp.hpp
+[12.485s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/lib/libserial__rosidl_typesupport_fastrtps_cpp.so
+[12.485s] -- Set runtime path of "/home/johan/slam/xiaoying_robot/install/serial/lib/libserial__rosidl_typesupport_fastrtps_cpp.so" to ""
+[12.485s] -- Up-to-date: /home/johan/slam/xiaoying_robot/install/serial/include/serial/serial
+[12.485s] -- Up-to-date: /home/johan/slam/xiaoying_robot/install/serial/include/serial/serial/msg
+[12.485s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/include/serial/serial/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[12.485s] -- Up-to-date: /home/johan/slam/xiaoying_robot/install/serial/include/serial/serial/msg/detail
+[12.485s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/include/serial/serial/msg/detail/twist__rosidl_typesupport_introspection_c.h
+[12.485s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/include/serial/serial/msg/detail/twist__type_support.c
+[12.485s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/lib/libserial__rosidl_typesupport_introspection_c.so
+[12.486s] -- Set runtime path of "/home/johan/slam/xiaoying_robot/install/serial/lib/libserial__rosidl_typesupport_introspection_c.so" to ""
+[12.486s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/lib/libserial__rosidl_typesupport_c.so
+[12.486s] -- Set runtime path of "/home/johan/slam/xiaoying_robot/install/serial/lib/libserial__rosidl_typesupport_c.so" to ""
+[12.486s] -- Up-to-date: /home/johan/slam/xiaoying_robot/install/serial/include/serial/serial
+[12.486s] -- Up-to-date: /home/johan/slam/xiaoying_robot/install/serial/include/serial/serial/msg
+[12.486s] -- Up-to-date: /home/johan/slam/xiaoying_robot/install/serial/include/serial/serial/msg/detail
+[12.486s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/include/serial/serial/msg/detail/twist__type_support.cpp
+[12.486s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/include/serial/serial/msg/detail/twist__rosidl_typesupport_introspection_cpp.hpp
+[12.486s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/lib/libserial__rosidl_typesupport_introspection_cpp.so
+[12.486s] -- Set runtime path of "/home/johan/slam/xiaoying_robot/install/serial/lib/libserial__rosidl_typesupport_introspection_cpp.so" to ""
+[12.486s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/lib/libserial__rosidl_typesupport_cpp.so
+[12.486s] -- Set runtime path of "/home/johan/slam/xiaoying_robot/install/serial/lib/libserial__rosidl_typesupport_cpp.so" to ""
+[12.487s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/share/serial/environment/pythonpath.sh
+[12.487s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/share/serial/environment/pythonpath.dsv
+[12.487s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/local/lib/python3.10/dist-packages/serial-0.0.0-py3.10.egg-info
+[12.487s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/local/lib/python3.10/dist-packages/serial-0.0.0-py3.10.egg-info/dependency_links.txt
+[12.487s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/local/lib/python3.10/dist-packages/serial-0.0.0-py3.10.egg-info/top_level.txt
+[12.487s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/local/lib/python3.10/dist-packages/serial-0.0.0-py3.10.egg-info/SOURCES.txt
+[12.487s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/local/lib/python3.10/dist-packages/serial-0.0.0-py3.10.egg-info/PKG-INFO
+[12.487s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/local/lib/python3.10/dist-packages/serial
+[12.487s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/local/lib/python3.10/dist-packages/serial/_serial_s.ep.rosidl_typesupport_c.c
+[12.487s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/local/lib/python3.10/dist-packages/serial/__init__.py
+[12.487s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/local/lib/python3.10/dist-packages/serial/_serial_s.ep.rosidl_typesupport_fastrtps_c.c
+[12.487s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/local/lib/python3.10/dist-packages/serial/libserial__rosidl_generator_py.so
+[12.487s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/local/lib/python3.10/dist-packages/serial/_serial_s.ep.rosidl_typesupport_introspection_c.c
+[12.488s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/local/lib/python3.10/dist-packages/serial/serial_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[12.488s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/local/lib/python3.10/dist-packages/serial/serial_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[12.488s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/local/lib/python3.10/dist-packages/serial/msg
+[12.488s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/local/lib/python3.10/dist-packages/serial/msg/__init__.py
+[12.488s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/local/lib/python3.10/dist-packages/serial/msg/_twist_s.c
+[12.488s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/local/lib/python3.10/dist-packages/serial/msg/_twist.py
+[12.488s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/local/lib/python3.10/dist-packages/serial/serial_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[12.508s] Listing '/home/johan/slam/xiaoying_robot/install/serial/local/lib/python3.10/dist-packages/serial'...
+[12.508s] Compiling '/home/johan/slam/xiaoying_robot/install/serial/local/lib/python3.10/dist-packages/serial/__init__.py'...
+[12.508s] Listing '/home/johan/slam/xiaoying_robot/install/serial/local/lib/python3.10/dist-packages/serial/msg'...
+[12.508s] Compiling '/home/johan/slam/xiaoying_robot/install/serial/local/lib/python3.10/dist-packages/serial/msg/__init__.py'...
+[12.508s] Compiling '/home/johan/slam/xiaoying_robot/install/serial/local/lib/python3.10/dist-packages/serial/msg/_twist.py'...
+[12.512s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/local/lib/python3.10/dist-packages/serial/serial_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[12.512s] -- Set runtime path of "/home/johan/slam/xiaoying_robot/install/serial/local/lib/python3.10/dist-packages/serial/serial_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[12.512s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/local/lib/python3.10/dist-packages/serial/serial_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[12.512s] -- Set runtime path of "/home/johan/slam/xiaoying_robot/install/serial/local/lib/python3.10/dist-packages/serial/serial_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[12.512s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/local/lib/python3.10/dist-packages/serial/serial_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[12.512s] -- Set runtime path of "/home/johan/slam/xiaoying_robot/install/serial/local/lib/python3.10/dist-packages/serial/serial_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[12.513s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/lib/libserial__rosidl_generator_py.so
+[12.513s] -- Set runtime path of "/home/johan/slam/xiaoying_robot/install/serial/lib/libserial__rosidl_generator_py.so" to ""
+[12.513s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/share/serial/msg/Twist.idl
+[12.513s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/share/serial/msg/Twist.msg
+[12.513s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/lib/serial/serial_node
+[12.515s] -- Set runtime path of "/home/johan/slam/xiaoying_robot/install/serial/lib/serial/serial_node" to ""
+[12.515s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/share/serial/launch
+[12.515s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/share/serial/launch/serial_node.launch.py
+[12.515s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[12.516s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[12.516s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/share/serial/environment/ament_prefix_path.sh
+[12.516s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/share/serial/environment/ament_prefix_path.dsv
+[12.516s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/share/serial/environment/path.sh
+[12.516s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/share/serial/environment/path.dsv
+[12.516s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/share/serial/local_setup.bash
+[12.516s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/share/serial/local_setup.sh
+[12.516s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/share/serial/local_setup.zsh
+[12.516s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/share/serial/local_setup.dsv
+[12.516s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/share/serial/package.dsv
+[12.517s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/share/ament_index/resource_index/packages/serial
+[12.517s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/share/serial/cmake/export_serial__rosidl_generator_cExport.cmake
+[12.517s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/share/serial/cmake/export_serial__rosidl_generator_cExport-noconfig.cmake
+[12.517s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/share/serial/cmake/export_serial__rosidl_typesupport_fastrtps_cExport.cmake
+[12.517s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/share/serial/cmake/export_serial__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[12.517s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/share/serial/cmake/export_serial__rosidl_generator_cppExport.cmake
+[12.517s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/share/serial/cmake/export_serial__rosidl_typesupport_fastrtps_cppExport.cmake
+[12.517s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/share/serial/cmake/export_serial__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[12.517s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/share/serial/cmake/serial__rosidl_typesupport_introspection_cExport.cmake
+[12.517s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/share/serial/cmake/serial__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[12.517s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/share/serial/cmake/serial__rosidl_typesupport_cExport.cmake
+[12.517s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/share/serial/cmake/serial__rosidl_typesupport_cExport-noconfig.cmake
+[12.518s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/share/serial/cmake/serial__rosidl_typesupport_introspection_cppExport.cmake
+[12.518s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/share/serial/cmake/serial__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[12.518s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/share/serial/cmake/serial__rosidl_typesupport_cppExport.cmake
+[12.519s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/share/serial/cmake/serial__rosidl_typesupport_cppExport-noconfig.cmake
+[12.519s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/share/serial/cmake/export_serial__rosidl_generator_pyExport.cmake
+[12.519s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/share/serial/cmake/export_serial__rosidl_generator_pyExport-noconfig.cmake
+[12.519s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/share/serial/cmake/rosidl_cmake-extras.cmake
+[12.519s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.520s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[12.520s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/share/serial/cmake/ament_cmake_export_targets-extras.cmake
+[12.520s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/share/serial/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[12.520s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/share/serial/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.520s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/share/serial/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[12.520s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/share/serial/cmake/serialConfig.cmake
+[12.520s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/share/serial/cmake/serialConfig-version.cmake
+[12.520s] -- Installing: /home/johan/slam/xiaoying_robot/install/serial/share/serial/package.xml
+[12.520s] Invoked command in '/home/johan/slam/xiaoying_robot/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/johan/slam/xiaoying_robot/build/serial
